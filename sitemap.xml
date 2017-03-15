@@ -13,13 +13,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mraediaz.github.io/experience.html</loc>
-    <lastmod>2017-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://mraediaz.github.io/resume-submission.html</loc>
+    <loc>http://mraediaz.github.io/projects.html</loc>
     <lastmod>2017-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

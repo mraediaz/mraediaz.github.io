@@ -10,20 +10,8 @@
 
 	#page
 	{
-		min-height: 670px;
-		background-image: url("../images/20160722_012651668_ios-page-fr.jpg");
+		min-height: 530px;
 		max-width: 960px;
-	}
-
-	#pu4143
-	{
-		padding-bottom: 352px;
-	}
-
-	#u4143
-	{
-		background-color: #F1EAEC;
-		background-color: rgba(210,188,192,0.3);
 	}
 
 	#pamphletu256
@@ -225,6 +213,13 @@
 		margin-left: 8.65%;
 	}
 
+	#u4383-4
+	{
+		margin-right: -10000px;
+		margin-top: 270px;
+		left: 37.09%;
+	}
+
 	#u251
 	{
 		min-height: 70px;
@@ -306,6 +301,6 @@
 
 	.verticalspacer
 	{
-		min-height: 226px;
+		min-height: 134px;
 	}
 
