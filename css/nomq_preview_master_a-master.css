@@ -1,7 +1,49 @@
-	#u262
+	#u266:hover
 	{
-		background-color: #E6E6E6;
-		background-color: rgba(205,205,205,0.5);
+		background-color: #FFFFFF;
+		background-color: rgba(255,255,255,0.5);
+	}
+
+	#u266:active
+	{
+		background-color: #FFFFFF;
+		background-color: rgba(255,255,255,0.5);
+	}
+
+	#u266.PamphletThumbSelected
+	{
+		background-color: #FFFFFF;
+		background-color: rgba(255,255,255,1);
+	}
+
+	#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span,#u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u432-4
+	{
+		color: #000000;
+	}
+
+	#u3734-4
+	{
+		color: #000000;
+	}
+
+	#u3391-4
+	{
+		color: #000000;
+	}
+
+	#u3439-4
+	{
+		color: #000000;
+	}
+
+	#u3304-4
+	{
+		line-height: 24px;
+		color: #FFFFFF;
+		font-size: 20px;
+		text-align: center;
+		font-family: satisfy, sans-serif;
+		font-weight: 400;
 	}
 
 	#u251

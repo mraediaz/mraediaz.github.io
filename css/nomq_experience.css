@@ -8,6 +8,17 @@
 		display: block;
 	}
 
+	#page
+	{
+		min-height: 530px;
+		max-width: 960px;
+	}
+
+	#u4383-4
+	{
+		left: 37.09%;
+	}
+
 	#pamphletu256
 	{
 		height: 54px;
@@ -165,45 +176,6 @@
 		width: 54.55%;
 	}
 
-	#u4307-4
-	{
-		width: 54.07%;
-		margin-left: 9.07%;
-	}
-
-	#u3906-4
-	{
-		width: 54.07%;
-		margin-left: 22.71%;
-	}
-
-	#page,#u2035_align_to_page
-	{
-		max-width: 960px;
-	}
-
-	#u3928-4
-	{
-		width: 31.05%;
-		left: 8.96%;
-	}
-
-	#u4214-6
-	{
-		width: 30.42%;
-		left: 34.28%;
-	}
-
-	#u4214-6:hover
-	{
-		width: 30.42%;
-	}
-
-	#u2035,#u2035-bw
-	{
-		min-height: 2324.6499999999996px;
-	}
-
 	#u251
 	{
 		min-height: 70px;
@@ -258,5 +230,10 @@
 	{
 		min-height: 70px;
 		margin-top: 2px;
+	}
+
+	.verticalspacer
+	{
+		min-height: 134px;
 	}
 

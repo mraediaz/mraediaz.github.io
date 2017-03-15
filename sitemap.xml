@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://mraediaz.github.io/images/menu2.jpg</loc>
-    <lastmod>2017-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://mraediaz.github.io/index.html</loc>
     <lastmod>2017-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://mraediaz.github.io/background.html</loc>
+    <loc>http://mraediaz.github.io/portfolio.html</loc>
+    <lastmod>2017-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://mraediaz.github.io/experience.html</loc>
+    <lastmod>2017-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://mraediaz.github.io/resume-submission.html</loc>
     <lastmod>2017-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

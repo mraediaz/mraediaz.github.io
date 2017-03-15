@@ -8,6 +8,67 @@
 		display: block;
 	}
 
+	#page
+	{
+		background-image: url("../images/20160722_012651668_ios-page-fr.jpg");
+		max-width: 960px;
+	}
+
+	#u4143
+	{
+		background-color: #F1EAEB;
+		background-color: rgba(210,188,192,0.31);
+	}
+
+	#widgetu3976
+	{
+		left: 21.67%;
+	}
+
+	#u3987-4
+	{
+		background-color: #DFD0D3;
+		background-color: rgba(210,188,192,0.69);
+	}
+
+	#u3981-4
+	{
+		background-color: #DFD0D3;
+		background-color: rgba(210,188,192,0.69);
+	}
+
+	#u3991-17
+	{
+		background-image: url("../images/u3991-17.png");
+	}
+
+	#u3991-17:hover
+	{
+		background-image: url("../images/u3991-17-r.png");
+	}
+
+	#u3991-17:active
+	{
+		background-image: url("../images/u3991-17-m.png");
+	}
+
+	#widgetu3976.frm-sub-st #u3991-17
+	{
+		background-image: url("../images/u3991-17-fs.png");
+	}
+
+	#u3983-4
+	{
+		background-color: #DFD0D3;
+		background-color: rgba(210,188,192,0.69);
+	}
+
+	#u4031-4
+	{
+		background-color: #DFD0D3;
+		background-color: rgba(210,188,192,0.69);
+	}
+
 	#pamphletu256
 	{
 		height: 54px;
@@ -165,45 +226,6 @@
 		width: 54.55%;
 	}
 
-	#u4307-4
-	{
-		width: 54.07%;
-		margin-left: 9.07%;
-	}
-
-	#u3906-4
-	{
-		width: 54.07%;
-		margin-left: 22.71%;
-	}
-
-	#page,#u2035_align_to_page
-	{
-		max-width: 960px;
-	}
-
-	#u3928-4
-	{
-		width: 31.05%;
-		left: 8.96%;
-	}
-
-	#u4214-6
-	{
-		width: 30.42%;
-		left: 34.28%;
-	}
-
-	#u4214-6:hover
-	{
-		width: 30.42%;
-	}
-
-	#u2035,#u2035-bw
-	{
-		min-height: 2324.6499999999996px;
-	}
-
 	#u251
 	{
 		min-height: 70px;
@@ -258,5 +280,10 @@
 	{
 		min-height: 70px;
 		margin-top: 2px;
+	}
+
+	.verticalspacer
+	{
+		min-height: 29px;
 	}
 
