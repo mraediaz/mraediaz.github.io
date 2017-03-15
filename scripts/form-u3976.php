@@ -25,8 +25,8 @@ $form = array(
 		'unknown_method' => 'Unknown server request method'
 	),
 	'email' => array(
-		'from' => 'mraediaz@gmail.com',
-		'to' => 'mraediaz@gmail.com'
+		'from' => 'http://formspree.io/mraediaz@gmail.com',
+		'to' => 'http://formspree.io/mraediaz@gmail.com'
 	),
 	'fields' => array(
 		'custom_U3986' => array(
