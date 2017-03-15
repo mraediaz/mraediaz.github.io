@@ -1,0 +1,153 @@
+	#muse_css_mq
+	{
+		background-color: #FFFFFF;
+	}
+
+	#bp_infinity.active
+	{
+		display: block;
+	}
+
+	#page
+	{
+		min-height: 530px;
+		max-width: 960px;
+	}
+
+	#pamphletu256
+	{
+		height: 44px;
+		padding-bottom: 4px;
+		left: 60px;
+	}
+
+	#u261
+	{
+		width: 843px;
+		padding-bottom: 367px;
+		top: 54px;
+		left: -1px;
+	}
+
+	#u262
+	{
+		width: 837px;
+		height: 361px;
+		top: 61px;
+		margin-left: -421px;
+	}
+
+	#menuu420
+	{
+		margin-top: 105px;
+		width: 76.35%;
+		margin-left: 11.83%;
+		left: 0px;
+	}
+
+	#u1922
+	{
+		width: 50px;
+		padding-bottom: 0px;
+		margin-top: 32px;
+	}
+
+	#u1681,#u1673
+	{
+		margin-top: 15px;
+	}
+
+	#u1675,#u1677
+	{
+		margin-top: 14px;
+	}
+
+	#u265
+	{
+		margin-top: 4px;
+		left: 4px;
+	}
+
+	#u266
+	{
+		width: 68px;
+		padding-bottom: 3px;
+		top: -4px;
+		left: -4px;
+	}
+
+	#u266.PamphletThumbSelected
+	{
+		width: 68px;
+	}
+
+	#u378
+	{
+		margin-top: 4px;
+		left: 5.89%;
+	}
+
+	#u266.PamphletThumbSelected #u378
+	{
+		margin-top: 4px;
+	}
+
+	#u232-4
+	{
+		top: 8px;
+		right: 60px;
+	}
+
+	#u251
+	{
+		min-height: 70px;
+		padding-bottom: 20px;
+	}
+
+	#u671-4
+	{
+		width: 243px;
+		margin-right: -10000px;
+		margin-top: 50px;
+		left: 60px;
+	}
+
+	#u859
+	{
+		width: 250px;
+		margin-right: -10000px;
+		margin-top: 11px;
+		left: 650px;
+	}
+
+	#u866
+	{
+		left: 50px;
+	}
+
+	#u864
+	{
+		left: 100px;
+	}
+
+	#u860
+	{
+		left: 150px;
+	}
+
+	#u862
+	{
+		left: 200px;
+	}
+
+	#u251-bw
+	{
+		min-height: 70px;
+		margin-top: 2px;
+	}
+
+	.verticalspacer
+	{
+		min-height: 376px;
+	}
+

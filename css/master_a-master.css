@@ -1,0 +1,162 @@
+#u262
+{
+	border-style: solid;
+	border-radius: 50px;
+	border-color: #5F6283;
+	border-width: 3px;
+	-pie-background: rgba(205,205,205,0.5);
+}
+
+#u432-4,#u425-4
+{
+	color: #3D4C83;
+	line-height: 30px;
+	text-align: center;
+	font-family: satisfy, sans-serif;
+	font-size: 25px;
+	border-color: transparent;
+	border-width: 0px;
+	background-color: transparent;
+	font-weight: 400;
+}
+
+#u431:hover #u432-4 p,#u422:hover #u425-4 p,#u422:hover #u425-4 span
+{
+	text-decoration: underline;
+}
+
+#u431.MuseMenuActive #u432-4 p,#u422.MuseMenuActive #u425-4 p,#u422.MuseMenuActive #u425-4 span
+{
+	text-decoration: none;
+}
+
+#u266
+{
+	background-color: transparent;
+	border-color: #DEDEDE;
+}
+
+#u247,#u266.PamphletThumbSelected
+{
+	background-color: #FFFFFF;
+}
+
+.MenuItem,.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton
+{
+	cursor: pointer;
+}
+
+#u232-4
+{
+	color: #3D4C83;
+	line-height: 48px;
+	font-family: lobster-two, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	font-style: italic;
+	background-color: transparent;
+}
+
+#u232-4:hover p
+{
+	font-weight: 400;
+	font-style: italic;
+	font-family: lobster-two, sans-serif;
+}
+
+#u251
+{
+	-pie-background: rgba(137,165,166,0.65);
+}
+
+#menuu420,#u1922,#u859
+{
+	border-color: transparent;
+	border-width: 0px;
+	background-color: transparent;
+}
+
+#u428,#u431,#u421,#u422,#u1681,#u1679,#u1675,#u1677,#u1673,#u378,#u866,#u868,#u864,#u862,#u860
+{
+	background-color: transparent;
+}
+
+#u1682,#u1680,#u1676,#u1678,#u1674,#u867,#u869,#u865,#u863,#u861
+{
+	display: block;
+}
+
+#u671-4
+{
+	color: #30293C;
+	line-height: 20px;
+	font-family: quicksand, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	font-style: italic;
+	background-color: transparent;
+}
+
+@media (min-width: 481px)
+{
+	#u262
+	{
+		background-color: #E6E6E6;
+		background-color: rgba(205,205,205,0.5);
+	}
+
+	#u251
+	{
+		background-color: #B2C4C5;
+		background-color: rgba(137,165,166,0.65);
+	}
+
+	#u251_align_to_page
+	{
+		max-width: 960px;
+	}
+
+}
+
+@media (min-width: 321px) and (max-width: 480px)
+{
+	#u262
+	{
+		background-color: #E6E6E6;
+		background-color: rgba(205,205,205,0.5);
+	}
+
+	#u251
+	{
+		background-color: #B2C4C5;
+		background-color: rgba(137,165,166,0.65);
+	}
+
+	#u251_align_to_page
+	{
+		max-width: 480px;
+	}
+
+}
+
+@media (max-width: 320px)
+{
+	#u262
+	{
+		background-color: #E6E6E6;
+		background-color: rgba(205,205,205,0.5);
+	}
+
+	#u251
+	{
+		background-color: #B2C4C5;
+		background-color: rgba(137,165,166,0.65);
+	}
+
+	#u251_align_to_page
+	{
+		max-width: 320px;
+	}
+
+}
+
