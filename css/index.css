@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000008;
-	background-color: #336264;
+	color: #00000D;
+	background-color: #949646;
 }
 
 .js body
@@ -233,8 +233,24 @@
 #u2035-bw
 {
 	z-index: 2;
-	margin-top: 605px;
 	height: 679px;
+}
+
+#u2890-4
+{
+	left: 6.25%;
+	text-align: center;
+	font-size: 50px;
+	margin-right: -10000px;
+	line-height: 60px;
+	background-color: transparent;
+	position: relative;
+	min-height: 137px;
+	margin-top: 226px;
+	z-index: 55;
+	font-family: quicksand, sans-serif;
+	width: 87.5%;
+	font-weight: 700;
 }
 
 #u232-4
@@ -380,25 +396,24 @@ body
 
 	#u261
 	{
-		width: 843px;
-		padding-bottom: 367px;
-		top: 54px;
-		left: -1px;
+		width: 840px;
+		padding-bottom: 364px;
+		top: 55px;
 	}
 
 	#u262
 	{
-		width: 837px;
-		height: 361px;
-		top: 61px;
-		margin-left: -421px;
+		width: 840px;
+		height: 364px;
+		top: 62px;
+		margin-left: -420px;
 	}
 
 	#menuu420
 	{
-		margin-top: 105px;
-		width: 76.35%;
-		margin-left: 11.83%;
+		margin-top: 107px;
+		width: 76.08%;
+		margin-left: 11.97%;
 		left: 0px;
 	}
 
@@ -406,7 +421,8 @@ body
 	{
 		width: 50px;
 		padding-bottom: 0px;
-		margin-top: 32px;
+		margin-top: 34px;
+		left: 0.24%;
 	}
 
 	#u1681,#u1673
@@ -447,6 +463,11 @@ body
 	#u266.PamphletThumbSelected #u378
 	{
 		margin-top: 4px;
+	}
+
+	#u2035-bw
+	{
+		margin-top: 605px;
 	}
 
 	#u232-4
@@ -535,33 +556,32 @@ body
 
 	#u261
 	{
-		width: 443px;
-		padding-bottom: 312px;
-		top: 61px;
-		left: -1px;
+		width: 440px;
+		padding-bottom: 309px;
+		top: 62px;
 	}
 
 	#u262
 	{
-		width: 437px;
-		height: 306px;
-		top: 69px;
-		margin-left: -221px;
+		width: 440px;
+		height: 309px;
+		top: 70px;
+		margin-left: -220px;
 	}
 
 	#menuu420
 	{
-		margin-top: 56px;
-		width: 64.08%;
-		margin-left: 17.97%;
+		margin-top: 58px;
+		width: 63.64%;
+		margin-left: 18.19%;
 		left: 1px;
 	}
 
 	#u1922
 	{
 		width: 50px;
-		margin-top: 16px;
-		left: 0.92%;
+		margin-top: 18px;
+		left: 1.37%;
 	}
 
 	#u1673
@@ -595,6 +615,11 @@ body
 	#u266.PamphletThumbSelected #u378
 	{
 		margin-top: 3px;
+	}
+
+	#u2035-bw
+	{
+		margin-top: 768px;
 	}
 
 	#u232-4
@@ -648,7 +673,7 @@ body
 
 	.verticalspacer
 	{
-		min-height: 627px;
+		min-height: 464px;
 	}
 }
 
@@ -683,33 +708,33 @@ body
 
 	#u261
 	{
-		width: 284px;
-		padding-bottom: 317px;
-		top: 66px;
-		left: -2px;
+		width: 281px;
+		padding-bottom: 314px;
+		top: 67px;
+		left: -1px;
 	}
 
 	#u262
 	{
-		width: 278px;
-		height: 311px;
-		top: 74px;
-		margin-left: -142px;
+		width: 281px;
+		height: 314px;
+		top: 75px;
+		margin-left: -141px;
 	}
 
 	#menuu420
 	{
-		margin-top: 101px;
-		width: 76.62%;
-		margin-left: 11.7%;
-		left: -8px;
+		margin-top: 103px;
+		width: 75.81%;
+		margin-left: 12.1%;
+		left: -7px;
 	}
 
 	#u1922
 	{
 		width: 249px;
-		margin-top: 24px;
-		left: 5.4%;
+		margin-top: 26px;
+		left: 6.05%;
 	}
 
 	#u1675
@@ -738,6 +763,11 @@ body
 	#u266.PamphletThumbSelected
 	{
 		width: 60px;
+	}
+
+	#u2035-bw
+	{
+		margin-top: 828px;
 	}
 
 	#u232-4
@@ -805,7 +835,7 @@ body
 
 	.verticalspacer
 	{
-		min-height: 626px;
+		min-height: 403px;
 	}
 }
 
