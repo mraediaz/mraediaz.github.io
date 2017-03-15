@@ -1,7 +1,7 @@
 .version.resume_submission /* version checker */
 {
-	color: #000019;
-	background-color: #5226F9;
+	color: #0000F1;
+	background-color: #E1A6EA;
 }
 
 .js body.initialized
@@ -904,8 +904,8 @@ body
 	{
 		height: 54px;
 		padding-bottom: 1px;
-		top: 27px;
-		left: 689px;
+		top: 28px;
+		left: 767px;
 	}
 
 	#u261
@@ -920,8 +920,8 @@ body
 	{
 		width: 840px;
 		height: 222px;
-		top: 120px;
-		margin-left: -420px;
+		top: 121px;
+		margin-left: -342px;
 	}
 
 	#menuu420

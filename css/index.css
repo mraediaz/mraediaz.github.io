@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000005;
-	background-color: #0402F0;
+	color: #00001F;
+	background-color: #F3EE25;
 }
 
 .js body
@@ -226,12 +226,11 @@
 	font-weight: 400;
 	position: relative;
 	background-color: transparent;
-	margin-left: 6.25%;
+	width: 87.5%;
 	text-align: center;
 	min-height: 122px;
 	z-index: 3;
-	width: 87.5%;
-	margin-top: 26px;
+	margin-left: 6.25%;
 }
 
 #u3906-4
@@ -246,12 +245,12 @@
 	text-align: center;
 	min-height: 34px;
 	z-index: 79;
-	margin-top: 15px;
+	margin-top: 14px;
 }
 
 #paboutme
 {
-	margin-top: 248px;
+	margin-top: 275px;
 	width: 100%;
 }
 
@@ -466,8 +465,8 @@ body
 	{
 		height: 54px;
 		padding-bottom: 1px;
-		top: 27px;
-		left: 689px;
+		top: 28px;
+		left: 767px;
 	}
 
 	#u261
@@ -482,8 +481,8 @@ body
 	{
 		width: 840px;
 		height: 222px;
-		top: 120px;
-		margin-left: -420px;
+		top: 121px;
+		margin-left: -342px;
 	}
 
 	#menuu420
@@ -922,7 +921,7 @@ body
 
 	#u2035,#u2035-bw
 	{
-		min-height: 2493.65px;
+		min-height: 2493.6499999999996px;
 	}
 
 	#u251
@@ -1199,7 +1198,7 @@ body
 
 	#u2035,#u2035-bw
 	{
-		min-height: 2625.65px;
+		min-height: 2625.6499999999996px;
 	}
 
 	#u251
