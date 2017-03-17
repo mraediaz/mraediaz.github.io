@@ -1,56 +1,45 @@
 #u262
 {
 	border-radius: 50px;
-	border-width: 0px;
-	border-color: #FFFFFF;
 	background-color: #E4D4D7;
+	border-color: #FFFFFF;
+	border-width: 0px;
 }
 
 #u432-4,#u3734-4,#u3391-4,#u3439-4
 {
-	text-align: center;
-	font-size: 25px;
 	font-family: satisfy, sans-serif;
-	border-color: transparent;
-	line-height: 30px;
 	border-width: 0px;
+	line-height: 30px;
 	font-weight: 400;
+	text-align: center;
 	background-color: transparent;
+	border-color: transparent;
+	font-size: 25px;
 }
 
 #u431:hover #u432-4 p,#u431:hover #u432-4 span,#u3732:hover #u3734-4 p,#u3732:hover #u3734-4 span,#u3389:hover #u3391-4 p,#u3389:hover #u3391-4 span,#u3438:hover #u3439-4 p,#u3438:hover #u3439-4 span
 {
-	text-decoration: underline;
 	color: #FAFAFA;
 	visibility: inherit;
+	text-decoration: underline;
 }
 
 #u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span
 {
-	text-decoration: none;
 	visibility: inherit;
+	text-decoration: none;
 }
 
-#u1677
+#u3609
 {
-	background: transparent url("../images/githubicon.svg") no-repeat center center;
+	background: transparent url("../images/googleplusicon.svg") no-repeat center center;
 	background-size: contain;
 }
 
-.nosvg #u1677
+.nosvg #u3609
 {
-	background-image: url('../images/githubicon_poster_u3678.png');
-}
-
-#u1673
-{
-	background: transparent url("../images/linkedinicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u1673
-{
-	background-image: url('../images/linkedinicon_poster_u3666.png');
+	background-image: url('../images/googleplusicon_poster_u3684.png');
 }
 
 #u1675
@@ -75,15 +64,26 @@
 	background-image: url('../images/facebookicon_poster_u3690.png');
 }
 
-#u3609
+#u1673
 {
-	background: transparent url("../images/googleplusicon.svg") no-repeat center center;
+	background: transparent url("../images/linkedinicon.svg") no-repeat center center;
 	background-size: contain;
 }
 
-.nosvg #u3609
+.nosvg #u1673
 {
-	background-image: url('../images/googleplusicon_poster_u3684.png');
+	background-image: url('../images/linkedinicon_poster_u3666.png');
+}
+
+#u1677
+{
+	background: transparent url("../images/githubicon.svg") no-repeat center center;
+	background-size: contain;
+}
+
+.nosvg #u1677
+{
+	background-image: url('../images/githubicon_poster_u3678.png');
 }
 
 #u1679
@@ -101,22 +101,22 @@
 {
 	border-radius: 10px;
 	border-style: solid;
-	border-width: 1px;
-	border-color: #FFFFFF;
 	background-color: transparent;
+	border-color: #FFFFFF;
+	border-width: 1px;
 }
 
 #u266:hover,#u266:active
 {
-	border-color: #000000;
 	border-radius: 10px;
+	border-color: #000000;
 	-pie-background: rgba(255,255,255,0.5);
 }
 
 #u266.PamphletThumbSelected
 {
-	border-color: #000000;
 	border-radius: 10px;
+	border-color: #000000;
 	-pie-background: rgba(255,255,255,1);
 }
 
@@ -145,32 +145,32 @@
 #u3304-4
 {
 	color: #FFFFFF;
-	font-size: 20px;
 	font-family: satisfy, sans-serif;
-	background-color: transparent;
 	line-height: 24px;
 	font-weight: 400;
+	background-color: transparent;
+	font-size: 20px;
 }
 
 #u266:hover #u3304-4 p,#u266:active #u3304-4 p
 {
 	color: #000000;
-	font-size: 20px;
 	font-family: satisfy, sans-serif;
-	visibility: inherit;
-	font-style: normal;
 	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	visibility: inherit;
 }
 
 #u266.PamphletThumbSelected #u3304-4 p
 {
 	color: #000000;
-	font-size: 20px;
 	font-family: satisfy, sans-serif;
-	visibility: inherit;
+	font-weight: 400;
 	text-align: center;
 	font-style: normal;
-	font-weight: 400;
+	font-size: 20px;
+	visibility: inherit;
 }
 
 .MenuItem,.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton
@@ -183,11 +183,11 @@
 	-pie-background: rgba(137,165,166,0.65);
 }
 
-#menuu420,#u4662,#u4647
+#menuu420,#u5666,#u5661,#u4647
 {
-	border-width: 0px;
-	border-color: transparent;
 	background-color: transparent;
+	border-color: transparent;
+	border-width: 0px;
 }
 
 #u428,#u431,#u3729,#u3732,#u3386,#u3389,#u3437,#u3438,#u3578,#u866,#u868,#u864,#u862,#u860
@@ -203,12 +203,12 @@
 #u671-4
 {
 	color: #30293C;
-	font-size: 17px;
 	font-family: quicksand, sans-serif;
-	background-color: transparent;
 	line-height: 20px;
 	font-style: italic;
 	font-weight: 400;
+	background-color: transparent;
+	font-size: 17px;
 }
 
 @media (min-width: 481px)
