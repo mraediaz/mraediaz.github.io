@@ -1,44 +1,16 @@
-	#u266:hover
+	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #FFFFFF;
 	}
 
-	#u266:active
+	#u6629-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #FFFFFF;
 	}
 
-	#u266.PamphletThumbSelected
+	#u6615-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,1);
-	}
-
-	#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span,#u432-4
-	{
-		color: #000000;
-	}
-
-	#u3734-4
-	{
-		color: #000000;
-	}
-
-	#u3391-4
-	{
-		color: #000000;
-	}
-
-	#u3439-4
-	{
-		color: #000000;
-	}
-
-	#u3304-4
-	{
-		text-align: center;
+		color: #FFFFFF;
 	}
 
 	#u251

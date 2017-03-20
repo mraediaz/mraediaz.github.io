@@ -1,62 +1,44 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1489779541974">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1489994095751">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="master_a-master.css" crc="3946213235" ref="index:portfolio:projects"/>
-    <file name="nomq_preview_master_a-master.css" crc="4134719160" ref="index:portfolio:projects"/>
-    <file name="index.css" crc="4180583445" ref="index"/>
-    <file name="nomq_index.css" crc="237003173" ref="index"/>
+    <file name="master_a-master.css" crc="81757477" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="253921318" ref="index"/>
+    <file name="index.css" crc="385754616" ref="index"/>
+    <file name="nomq_index.css" crc="154697225" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
-    <file name="portfolio.css" crc="4034286772" ref="portfolio"/>
-    <file name="nomq_portfolio.css" crc="3786181610" ref="portfolio"/>
-    <file name="projects.css" crc="86233909" ref="projects"/>
-    <file name="nomq_projects.css" crc="3779403486" ref="projects"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:portfolio:projects"/>
-    <file name="museutils.js" crc="531812214" ref="index:portfolio:projects"/>
-    <file name="whatinput.js" crc="84559013" ref="index:portfolio:projects"/>
-    <file name="pie.js" crc="3827607177" ref="index:portfolio"/>
-    <file name="jquery.musemenu.js" crc="3902934130" ref="index:portfolio:projects"/>
-    <file name="webpro.js" crc="4156477058" ref="index:portfolio:projects"/>
-    <file name="musewpslideshow.js" crc="4058618124" ref="index:portfolio:projects"/>
-    <file name="jquery.museoverlay.js" crc="3810062583" ref="index:portfolio:projects"/>
-    <file name="touchswipe.js" crc="4174436727" ref="index:portfolio:projects"/>
-    <file name="jquery.watch.js" crc="3866665977" ref="index:portfolio:projects"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:portfolio:projects"/>
-    <file name="jquery.museresponsive.js" crc="367458044" ref="index:portfolio:projects"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index:portfolio"/>
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index"/>
+    <file name="museutils.js" crc="531812214" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3902934130" ref="index"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="367458044" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index"/>
   </folder>
   <folder name="images">
     <file name="20160722_002702364_ios.jpg" crc="3857353950" ref="index"/>
-    <file name="mailicon.svg" crc="209528196" ref="index:portfolio:projects"/>
+    <file name="mailicon.svg" crc="209528196" ref="index"/>
     <file name="mailicon_poster_.png" crc="312567502" ref="index"/>
-    <file name="facebookicon.svg" crc="4091826347" ref="index:portfolio:projects"/>
+    <file name="facebookicon.svg" crc="4091826347" ref="index"/>
     <file name="facebookicon_poster_.png" crc="464422018" ref="index"/>
-    <file name="instagramicon.svg" crc="4105109223" ref="index:portfolio:projects"/>
+    <file name="instagramicon.svg" crc="4105109223" ref="index"/>
     <file name="instagramicon_poster_.png" crc="3869712285" ref="index"/>
-    <file name="linkedinicon.svg" crc="3973566555" ref="index:portfolio:projects"/>
+    <file name="linkedinicon.svg" crc="3973566555" ref="index"/>
     <file name="linkedinicon_poster_.png" crc="4293283595" ref="index"/>
-    <file name="githubicon.svg" crc="4036596625" ref="index:portfolio:projects"/>
+    <file name="githubicon.svg" crc="4036596625" ref="index"/>
     <file name="githubicon_poster_.png" crc="4195372792" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:portfolio:projects"/>
-    <file name="mailicon_poster_u3660.png" crc="312567502" ref="index"/>
-    <file name="linkedinicon_poster_u3666.png" crc="4293283595" ref="index"/>
-    <file name="githubicon_poster_u3678.png" crc="4195372792" ref="index"/>
-    <file name="googleplusicon.svg" crc="401767670" ref="index:portfolio:projects"/>
-    <file name="googleplusicon_poster_u3684.png" crc="26016955" ref="index"/>
-    <file name="facebookicon_poster_u3690.png" crc="464422018" ref="index"/>
-    <file name="instagramicon_poster_u3696.png" crc="3869712285" ref="index"/>
-    <file name="menuicon.svg" crc="119234931" ref="index"/>
-    <file name="menuicon_poster_u3346.png" crc="219211019" ref="index"/>
-    <file name="menuiconroll.svg" crc="4172723563" ref="index"/>
-    <file name="menuiconroll_poster_u3354.png" crc="94012125" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="googleplusicon.svg" crc="401767670" ref="index"/>
     <file name="googleplusicon_poster_.png" crc="270166182" ref="index"/>
-    <file name="20160722_012651668_ios-page-fr.jpg" crc="407929681" ref="portfolio"/>
-    <file name="20160722_012651668_ios.jpg" crc="240781566" ref="portfolio"/>
-    <file name="20160722_012651668_ios-page-fr2.jpg" crc="3759970275" ref="portfolio"/>
-    <file name="20160722_012651668_ios-page-fr3.jpg" crc="390641077" ref="portfolio"/>
+    <file name="hexagon.svg" crc="63921185" ref="index"/>
+    <file name="hexagon_poster_u8162.png" crc="3875348848" ref="index"/>
+    <file name="hexagonroll.svg" crc="3807985068" ref="index"/>
+    <file name="hexagonroll_poster_u8170.png" crc="154708907" ref="index"/>
+    <file name="20160722_002702364_ios-page-fr.jpg" crc="348636462" ref="index"/>
+    <file name="20160722_002702364_ios-page-fr2.jpg" crc="21061798" ref="index"/>
   </folder>
-  <file name="index.html" crc="3852269691" seo="true" mt="1489779491442" redirect="true"/>
-  <file name="portfolio.html" crc="3848964044" seo="true" mt="1489779491442" redirect="true"/>
-  <file name="projects.html" crc="4096017527" seo="true" mt="1489779491442" redirect="true"/>
+  <file name="index.html" crc="4292501723" seo="true" mt="1489994063080" redirect="true"/>
 </manifest>

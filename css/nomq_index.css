@@ -10,194 +10,43 @@
 
 	#page
 	{
-		min-height: 1896.6999999999998px;
-		padding-top: 104px;
-		padding-bottom: 0px;
+		min-height: 2542px;
+		background-image: url("../images/20160722_002702364_ios.jpg");
 		max-width: 960px;
 	}
 
-	#pamphletu256
+	#page_position_content
 	{
-		height: 86px;
-		padding-bottom: 256px;
-		left: 50%;
-		margin-left: -420px;
-	}
-
-	#u261
-	{
-		width: 840px;
-		padding-bottom: 222px;
-		top: 120px;
-	}
-
-	#u262
-	{
-		width: 840px;
-		height: 222px;
-		top: 130px;
-		margin-left: -420px;
-	}
-
-	#menuu420
-	{
-		margin-top: 18px;
-		width: 56.2%;
-		margin-left: 21.91%;
-		left: 0px;
-	}
-
-	#u431,#u3732
-	{
-		padding-bottom: 13px;
-	}
-
-	#u432-4,#u3734-4
-	{
-		top: 6px;
-	}
-
-	#u3389,#u3438
-	{
-		padding-bottom: 14px;
-	}
-
-	#u3391-4,#u3439-4
-	{
-		top: 7px;
-	}
-
-	#u5661
-	{
-		width: 50px;
-		padding-bottom: 0px;
-		margin-top: 18px;
-		left: 7.15%;
-	}
-
-	#u5666
-	{
-		width: 50px;
-		padding-bottom: 0px;
-		margin-top: 18px;
-		left: 86.91%;
-	}
-
-	#u1673,#u1681
-	{
-		margin-top: 15px;
-	}
-
-	#u1677,#u1675
-	{
-		margin-top: 14px;
-	}
-
-	#u265
-	{
-		width: 83px;
-		left: 378px;
-	}
-
-	#u266
-	{
-		width: 81px;
-		padding-bottom: 0px;
-		margin-left: -42px;
-	}
-
-	#u266:hover
-	{
-		margin-left: -42px;
-		width: 81px;
-	}
-
-	#u266:active
-	{
-		margin-left: -42px;
-		width: 81px;
-	}
-
-	#u266.PamphletThumbSelected
-	{
-		margin-left: -42px;
-		width: 81px;
-	}
-
-	#u266_position_content
-	{
-		margin-top: -1px;
-		padding-bottom: 7px;
+		padding-top: 20px;
 		width: 100%;
 	}
 
-	#u3276
+	#menuu6611
 	{
-		width: 66.67%;
-		margin-left: 17.29%;
+		width: 36.15%;
+		margin-left: 54.69%;
 	}
 
-	#u266:hover #u3276
+	#u6619
 	{
-		margin-right: 0px;
-		margin-top: 0px;
-		width: 66.67%;
-		margin-left: 17.29%;
+		width: 32.86%;
 	}
 
-	#u266:active #u3276
+	#u6626
 	{
-		margin-right: 0px;
-		margin-top: 0px;
-		width: 66.67%;
-		margin-left: 17.29%;
+		width: 32.86%;
+		left: 33.43%;
 	}
 
-	#u266.PamphletThumbSelected #u3276
+	#u6612
 	{
-		margin-right: 0px;
-		margin-top: 0px;
-		width: 66.67%;
-		margin-left: 17.29%;
+		width: 33.15%;
+		left: 66.86%;
 	}
 
-	#u3276 .fluid_height_spacer
+	#u2890-4
 	{
-		padding-bottom: 100%;
-	}
-
-	#u3304-4
-	{
-		min-height: 21px;
-		width: 81.49%;
-		margin-left: 8.65%;
-	}
-
-	#u266:hover #u3304-4
-	{
-		margin-right: 0px;
-		margin-top: 0px;
-		min-height: 21px;
-		width: 81.49%;
-		margin-left: 8.65%;
-	}
-
-	#u266:active #u3304-4
-	{
-		margin-right: 0px;
-		margin-top: 0px;
-		min-height: 21px;
-		width: 81.49%;
-		margin-left: 8.65%;
-	}
-
-	#u266.PamphletThumbSelected #u3304-4
-	{
-		margin-right: 0px;
-		margin-top: 0px;
-		min-height: 21px;
-		width: 81.49%;
-		margin-left: 8.65%;
+		margin-top: 84px;
 	}
 
 	#u3906-4
@@ -211,15 +60,36 @@
 		left: -3px;
 	}
 
-	#paboutme
+	#u4307-4-bw
 	{
-		margin-top: 275px;
+		margin-top: 98px;
 	}
 
-	#u2035_align_to_page
+	#paboutme
+	{
+		margin-top: 122px;
+		width: 100%;
+	}
+
+	#aboutme
+	{
+		width: 22px;
+		margin-right: -10000px;
+		margin-top: 40px;
+		left: -500px;
+	}
+
+	#u6003
+	{
+		min-height: 963.9499999999998px;
+		padding-bottom: 0px;
+	}
+
+	#u6003_align_to_page
 	{
 		max-width: 960px;
-		padding-bottom: 1839px;
+		padding-top: 110px;
+		padding-bottom: 70px;
 	}
 
 	#u3928-4
@@ -228,23 +98,168 @@
 		left: 86px;
 	}
 
+	#u5695-7
+	{
+		margin-top: 44px;
+		width: 79.9%;
+		left: 10.11%;
+	}
+
+	#pu4214-6
+	{
+		margin-top: 46px;
+		position: relative;
+		width: 100%;
+	}
+
 	#u4214-6
 	{
 		width: 292px;
-		margin-top: 239px;
-		left: -151px;
+		margin-bottom: -3px;
+		margin-right: -10000px;
+		margin-top: -2px;
+		left: -360px;
 	}
 
 	#u4214-6:hover
 	{
-		margin-top: 239px;
+		margin-right: -10000px;
+		margin-bottom: -3px;
+		margin-top: -2px;
 		width: 292px;
-		left: -151px;
+		left: -360px;
 	}
 
-	#u2035,#u2035-bw
+	#u5686-6
 	{
-		min-height: 2328.6499999999996px;
+		width: 292px;
+		margin-bottom: -3px;
+		margin-right: -10000px;
+		margin-top: -2px;
+		left: 58px;
+	}
+
+	#u5686-6:hover
+	{
+		margin-right: -10000px;
+		margin-bottom: -3px;
+		margin-top: -2px;
+		width: 292px;
+		left: 58px;
+	}
+
+	#u6003-bw
+	{
+		min-height: 963.9499999999998px;
+	}
+
+	#work
+	{
+		left: -500px;
+		margin-top: 46px;
+	}
+
+	#u6998-4
+	{
+		width: 298px;
+		margin-left: 154px;
+		margin-top: 46px;
+	}
+
+	#pu7782
+	{
+		margin-top: 11px;
+		width: 100%;
+	}
+
+	#u7782
+	{
+		margin-top: 100px;
+		width: 20.84%;
+		left: 59.69%;
+	}
+
+	#u8023
+	{
+		width: 20.84%;
+		left: 39.59%;
+	}
+
+	#u8023:hover
+	{
+		width: 20.84%;
+	}
+
+	#u8032
+	{
+		margin-top: 304px;
+		width: 20.84%;
+		left: 59.69%;
+	}
+
+	#u8064
+	{
+		margin-top: 100px;
+		width: 20.84%;
+		left: 20.84%;
+	}
+
+	#u7782:hover,#u8064:hover
+	{
+		margin-top: 100px;
+		width: 20.84%;
+	}
+
+	#u8065
+	{
+		margin-top: 404px;
+		width: 20.84%;
+		left: 39.59%;
+	}
+
+	#u8065:hover
+	{
+		margin-top: 404px;
+		width: 20.84%;
+	}
+
+	#u8087
+	{
+		margin-top: 204px;
+		width: 20.84%;
+	}
+
+	#u8088
+	{
+		margin-top: 204px;
+		width: 20.84%;
+		left: 39.59%;
+	}
+
+	#u8089
+	{
+		margin-top: 204px;
+		width: 20.84%;
+		left: 79.17%;
+	}
+
+	#u8087:hover,#u8088:hover,#u8089:hover
+	{
+		margin-top: 204px;
+		width: 20.84%;
+	}
+
+	#u8115
+	{
+		margin-top: 304px;
+		width: 20.84%;
+		left: 20.84%;
+	}
+
+	#u8032:hover,#u8115:hover
+	{
+		margin-top: 304px;
+		width: 20.84%;
 	}
 
 	#u251
@@ -253,76 +268,55 @@
 		padding-bottom: 20px;
 	}
 
-	#u251_align_to_page
-	{
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-	}
-
 	#u671-4
 	{
 		width: 243px;
-		position: relative;
 		margin-right: -10000px;
 		margin-top: 50px;
-		left: 60px;
+		left: 82px;
 	}
 
 	#u4647
 	{
 		width: 300px;
-		position: relative;
 		margin-right: -10000px;
 		margin-top: 11px;
-		left: 600px;
+		left: 622px;
 	}
 
 	#u3578
 	{
-		position: relative;
-		margin-right: -10000px;
 		margin-top: 4px;
 	}
 
 	#u868
 	{
-		position: relative;
-		margin-right: -10000px;
 		left: 50px;
 	}
 
 	#u866
 	{
-		position: relative;
-		margin-right: -10000px;
 		left: 100px;
 	}
 
 	#u864
 	{
-		position: relative;
-		margin-right: -10000px;
 		left: 150px;
 	}
 
 	#u860
 	{
-		position: relative;
-		margin-right: -10000px;
 		left: 200px;
 	}
 
 	#u862
 	{
-		position: relative;
-		margin-right: -10000px;
 		left: 250px;
 	}
 
 	#u251-bw
 	{
 		min-height: 70px;
-		margin-top: 2px;
+		margin-top: 30px;
 	}
 

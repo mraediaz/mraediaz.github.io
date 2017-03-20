@@ -1,179 +1,29 @@
-#u262
+#u6625-4,#u6629-4,#u6615-4
 {
-	border-radius: 50px;
-	background-color: #E4D4D7;
-	border-color: #FFFFFF;
-	border-width: 0px;
-}
-
-#u432-4,#u3734-4,#u3391-4,#u3439-4
-{
-	font-family: satisfy, sans-serif;
+	border-color: transparent;
+	text-align: center;
 	border-width: 0px;
 	line-height: 30px;
-	font-weight: 400;
-	text-align: center;
-	background-color: transparent;
-	border-color: transparent;
 	font-size: 25px;
+	font-family: satisfy, sans-serif;
+	font-weight: 400;
+	background-color: transparent;
 }
 
-#u431:hover #u432-4 p,#u431:hover #u432-4 span,#u3732:hover #u3734-4 p,#u3732:hover #u3734-4 span,#u3389:hover #u3391-4 p,#u3389:hover #u3391-4 span,#u3438:hover #u3439-4 p,#u3438:hover #u3439-4 span
+#u6622:hover #u6625-4 p,#u6622:hover #u6625-4 span,#u6627:hover #u6629-4 p,#u6627:hover #u6629-4 span,#u6613:hover #u6615-4 p,#u6613:hover #u6615-4 span
 {
-	color: #FAFAFA;
+	color: #A67C8F;
 	visibility: inherit;
 	text-decoration: underline;
 }
 
-#u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span
+#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span
 {
 	visibility: inherit;
 	text-decoration: none;
 }
 
-#u3609
-{
-	background: transparent url("../images/googleplusicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u3609
-{
-	background-image: url('../images/googleplusicon_poster_u3684.png');
-}
-
-#u1675
-{
-	background: transparent url("../images/instagramicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u1675
-{
-	background-image: url('../images/instagramicon_poster_u3696.png');
-}
-
-#u1681
-{
-	background: transparent url("../images/facebookicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u1681
-{
-	background-image: url('../images/facebookicon_poster_u3690.png');
-}
-
-#u1673
-{
-	background: transparent url("../images/linkedinicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u1673
-{
-	background-image: url('../images/linkedinicon_poster_u3666.png');
-}
-
-#u1677
-{
-	background: transparent url("../images/githubicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u1677
-{
-	background-image: url('../images/githubicon_poster_u3678.png');
-}
-
-#u1679
-{
-	background: transparent url("../images/mailicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u1679
-{
-	background-image: url('../images/mailicon_poster_u3660.png');
-}
-
-#u266
-{
-	border-radius: 10px;
-	border-style: solid;
-	background-color: transparent;
-	border-color: #FFFFFF;
-	border-width: 1px;
-}
-
-#u266:hover,#u266:active
-{
-	border-radius: 10px;
-	border-color: #000000;
-	-pie-background: rgba(255,255,255,0.5);
-}
-
-#u266.PamphletThumbSelected
-{
-	border-radius: 10px;
-	border-color: #000000;
-	-pie-background: rgba(255,255,255,1);
-}
-
-#u3276
-{
-	background: transparent url("../images/menuicon.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u3276
-{
-	background-image: url('../images/menuicon_poster_u3346.png');
-}
-
-#u266:hover #u3276,#u266:active #u3276,#u266.PamphletThumbSelected #u3276
-{
-	background: transparent url("../images/menuiconroll.svg") no-repeat center center;
-	background-size: contain;
-}
-
-.nosvg #u266:hover #u3276,.nosvg #u266:active #u3276,.nosvg #u266.PamphletThumbSelected #u3276
-{
-	background-image: url('../images/menuiconroll_poster_u3354.png');
-}
-
-#u3304-4
-{
-	color: #FFFFFF;
-	font-family: satisfy, sans-serif;
-	line-height: 24px;
-	font-weight: 400;
-	background-color: transparent;
-	font-size: 20px;
-}
-
-#u266:hover #u3304-4 p,#u266:active #u3304-4 p
-{
-	color: #000000;
-	font-family: satisfy, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 20px;
-	visibility: inherit;
-}
-
-#u266.PamphletThumbSelected #u3304-4 p
-{
-	color: #000000;
-	font-family: satisfy, sans-serif;
-	font-weight: 400;
-	text-align: center;
-	font-style: normal;
-	font-size: 20px;
-	visibility: inherit;
-}
-
-.MenuItem,.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton
+.MenuItem
 {
 	cursor: pointer;
 }
@@ -183,14 +33,14 @@
 	-pie-background: rgba(137,165,166,0.65);
 }
 
-#menuu420,#u5666,#u5661,#u4647
+#menuu6611,#u4647
 {
-	background-color: transparent;
 	border-color: transparent;
+	background-color: transparent;
 	border-width: 0px;
 }
 
-#u428,#u431,#u3729,#u3732,#u3386,#u3389,#u3437,#u3438,#u3578,#u866,#u868,#u864,#u862,#u860
+#u6619,#u6622,#u6626,#u6627,#u6612,#u6613,#u3578,#u866,#u868,#u864,#u862,#u860
 {
 	background-color: transparent;
 }
@@ -202,58 +52,30 @@
 
 #u671-4
 {
-	color: #30293C;
 	font-family: quicksand, sans-serif;
-	line-height: 20px;
-	font-style: italic;
-	font-weight: 400;
-	background-color: transparent;
 	font-size: 17px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #30293C;
+	background-color: transparent;
+	font-style: italic;
 }
 
 @media (min-width: 481px)
 {
-	#u266:hover
+	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #FFFFFF;
 	}
 
-	#u266:active
+	#u6629-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #FFFFFF;
 	}
 
-	#u266.PamphletThumbSelected
+	#u6615-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,1);
-	}
-
-	#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span,#u432-4
-	{
-		color: #000000;
-	}
-
-	#u3734-4
-	{
-		color: #000000;
-	}
-
-	#u3391-4
-	{
-		color: #000000;
-	}
-
-	#u3439-4
-	{
-		color: #000000;
-	}
-
-	#u3304-4
-	{
-		text-align: center;
+		color: #FFFFFF;
 	}
 
 	#u251
@@ -271,96 +93,60 @@
 
 @media (min-width: 321px) and (max-width: 480px)
 {
-	#u266:hover
+	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #000000;
 	}
 
-	#u266:active
+	#u6629-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #000000;
 	}
 
-	#u266.PamphletThumbSelected
+	#u6615-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,1);
-	}
-
-	#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span,#u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u432-4
-	{
-		color: #3D4C83;
-	}
-
-	#u3734-4
-	{
-		color: #3D4C83;
-	}
-
-	#u3391-4
-	{
-		color: #3D4C83;
-	}
-
-	#u3439-4
-	{
-		color: #3D4C83;
+		color: #000000;
 	}
 
 	#u251
 	{
 		background-color: #B2C4C5;
 		background-color: rgba(137,165,166,0.65);
+	}
+
+	#u251_align_to_page
+	{
+		max-width: 480px;
 	}
 
 }
 
 @media (max-width: 320px)
 {
-	#u266:hover
+	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #000000;
 	}
 
-	#u266:active
+	#u6629-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,0.5);
+		color: #000000;
 	}
 
-	#u266.PamphletThumbSelected
+	#u6615-4
 	{
-		background-color: #FFFFFF;
-		background-color: rgba(255,255,255,1);
-	}
-
-	#u3732.MuseMenuActive #u3734-4 p,#u3732.MuseMenuActive #u3734-4 span,#u3438.MuseMenuActive #u3439-4 p,#u3438.MuseMenuActive #u3439-4 span,#u431.MuseMenuActive #u432-4 p,#u431.MuseMenuActive #u432-4 span,#u3389.MuseMenuActive #u3391-4 p,#u3389.MuseMenuActive #u3391-4 span,#u432-4
-	{
-		color: #3D4C83;
-	}
-
-	#u3734-4
-	{
-		color: #3D4C83;
-	}
-
-	#u3391-4
-	{
-		color: #3D4C83;
-	}
-
-	#u3439-4
-	{
-		color: #3D4C83;
+		color: #000000;
 	}
 
 	#u251
 	{
 		background-color: #B2C4C5;
 		background-color: rgba(137,165,166,0.65);
+	}
+
+	#u251_align_to_page
+	{
+		max-width: 320px;
 	}
 
 }
