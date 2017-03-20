@@ -1,23 +1,23 @@
-#u6625-4,#u6629-4,#u6615-4
+#u6625-4,#u6629-4,#u8420-4,#u6615-4
 {
-	border-width: 0px;
-	font-weight: 400;
 	border-color: transparent;
-	line-height: 30px;
+	font-weight: 400;
+	border-width: 0px;
 	text-align: center;
 	font-size: 25px;
 	font-family: satisfy, sans-serif;
 	background-color: transparent;
+	line-height: 30px;
 }
 
-#u6622:hover #u6625-4 p,#u6622:hover #u6625-4 span,#u6627:hover #u6629-4 p,#u6627:hover #u6629-4 span,#u6613:hover #u6615-4 p,#u6613:hover #u6615-4 span
+#u6622:hover #u6625-4 p,#u6622:hover #u6625-4 span,#u6627:hover #u6629-4 p,#u6627:hover #u6629-4 span,#u8417:hover #u8420-4 p,#u8417:hover #u8420-4 span,#u6613:hover #u6615-4 p,#u6613:hover #u6615-4 span
 {
 	text-decoration: underline;
 	color: #A67C8F;
 	visibility: inherit;
 }
 
-#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span
+#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u8417.MuseMenuActive #u8420-4 p,#u8417.MuseMenuActive #u8420-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span
 {
 	text-decoration: none;
 	visibility: inherit;
@@ -35,25 +35,25 @@
 
 #menuu6611,#u4647
 {
-	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
+	border-width: 0px;
 }
 
-#u6619,#u6622,#u6626,#u6627,#u6612,#u6613,#u3578,#u866,#u868,#u864,#u862,#u860
+#u6619,#u6622,#u6626,#u6627,#u8416,#u8417,#u6612,#u6613,#u3578,#u868,#u866,#u864,#u860,#u862
 {
 	background-color: transparent;
 }
 
-#u3578:hover,#u866:hover,#u868:hover,#u864:hover,#u862:hover,#u860:hover
+#u3578:hover,#u868:hover,#u866:hover,#u864:hover,#u860:hover,#u862:hover
 {
-	border-width: 1px;
-	border-color: #000000;
-	border-style: solid;
 	border-radius: 10px;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
 }
 
-#u3579,#u867,#u869,#u865,#u863,#u861
+#u3579,#u869,#u867,#u865,#u861,#u863
 {
 	display: block;
 }
@@ -61,22 +61,27 @@
 #u671-4
 {
 	color: #30293C;
-	font-size: 17px;
 	font-weight: 400;
-	background-color: transparent;
 	font-style: italic;
-	font-family: quicksand, sans-serif;
 	line-height: 20px;
+	font-size: 17px;
+	font-family: quicksand, sans-serif;
+	background-color: transparent;
 }
 
-@media (min-width: 481px)
+@media (min-width: 601px)
 {
-	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
+	#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u8417.MuseMenuActive #u8420-4 p,#u8417.MuseMenuActive #u8420-4 span,#u6625-4
 	{
 		color: #FFFFFF;
 	}
 
 	#u6629-4
+	{
+		color: #FFFFFF;
+	}
+
+	#u8420-4
 	{
 		color: #FFFFFF;
 	}
@@ -99,14 +104,19 @@
 
 }
 
-@media (min-width: 321px) and (max-width: 480px)
+@media (max-width: 600px)
 {
-	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
+	#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u8417.MuseMenuActive #u8420-4 p,#u8417.MuseMenuActive #u8420-4 span,#u6625-4
 	{
 		color: #000000;
 	}
 
 	#u6629-4
+	{
+		color: #000000;
+	}
+
+	#u8420-4
 	{
 		color: #000000;
 	}
@@ -124,37 +134,7 @@
 
 	#u251_align_to_page
 	{
-		max-width: 480px;
-	}
-
-}
-
-@media (max-width: 320px)
-{
-	#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6625-4
-	{
-		color: #000000;
-	}
-
-	#u6629-4
-	{
-		color: #000000;
-	}
-
-	#u6615-4
-	{
-		color: #000000;
-	}
-
-	#u251
-	{
-		background-color: #B2C4C5;
-		background-color: rgba(137,165,166,0.65);
-	}
-
-	#u251_align_to_page
-	{
-		max-width: 320px;
+		max-width: 600px;
 	}
 
 }

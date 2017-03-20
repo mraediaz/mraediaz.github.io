@@ -3,7 +3,7 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.museresponsive.js", "index.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "index.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -12,13 +12,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?3928156273"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?3801074300" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4288129831"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?4168445227" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?321525473"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?253921318"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?3995990373" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?3837119868"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?3840479364" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -27,7 +27,7 @@ var __adobewebfontsappname__ = "muse";
 </script>
   <!-- JS includes -->
   <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/quicksand:n4,n7,i4:default;satisfy:n4:default.js" type="text/javascript">\x3C/script>');
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/satisfy:n4:default;quicksand:n7,n4,i4:default.js" type="text/javascript">\x3C/script>');
 </script>
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
@@ -35,8 +35,8 @@ var __adobewebfontsappname__ = "muse";
    </head>
  <body>
 
-  <div class="breakpoint active" id="bp_infinity" data-min-width="481"><!-- responsive breakpoint node -->
-   <div class="museBGSize clearfix borderbox" id="page"><!-- column -->
+  <div class="breakpoint active" id="bp_infinity" data-min-width="601"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
     <div class="position_content" id="page_position_content">
      <nav class="MenuBar clearfix colelem" id="menuu6611"><!-- horizontal box -->
       <div class="MenuItemContainer borderbox clearfix grpelem" id="u6619"><!-- vertical box -->
@@ -45,56 +45,133 @@ var __adobewebfontsappname__ = "muse";
       <div class="MenuItemContainer borderbox clearfix grpelem" id="u6626"><!-- vertical box -->
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem" id="u6627" href="index.html#aboutme"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u6629-4"><!-- content --><p id="u6629-2" class="shared_content" data-content-guid="u6629-2_content"><span id="u6629">About Me</span></p></div></a>
       </div>
+      <div class="MenuItemContainer borderbox clearfix grpelem" id="u8416"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem" id="u8417" href="index.html#skills"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u8420-4"><!-- content --><p id="u8420-2" class="shared_content" data-content-guid="u8420-2_content"><span id="u8420">Skills</span></p></div></a>
+      </div>
       <div class="MenuItemContainer borderbox clearfix grpelem" id="u6612"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem" id="u6613" href="index.html#work"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u6615-4"><!-- content --><p id="u6615-2" class="shared_content" data-content-guid="u6615-2_content"><span id="u6615">Projects</span></p></div></a>
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem" id="u6613" href="index.html#projects"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u6615-4"><!-- content --><p id="u6615-2" class="shared_content" data-content-guid="u6615-2_content"><span id="u6615">Projects</span></p></div></a>
       </div>
      </nav>
      <div class="clearfix colelem shared_content" id="u2890-4" data-content-guid="u2890-4_content"><!-- content -->
       <p>Melany Diaz</p>
      </div>
-     <div class="rgba-background rounded-corners clearfix colelem shared_content" id="u3906-4" data-content-guid="u3906-4_content"><!-- content -->
-      <p id="u3906-2">Programmer, Web Designer, Mathematician, and Fire Spinner</p>
+     <div class="rounded-corners clearfix colelem shared_content" id="u3906-4" data-content-guid="u3906-4_content"><!-- content -->
+      <p>Programmer, Web Designer, Mathematician, and Fire Spinner</p>
      </div>
      <div class="browser_width colelem shared_content" id="u4307-4-bw" data-content-guid="u4307-4-bw_content">
       <div class="clearfix" id="u4307-4"><!-- content -->
        <p>THIS WEBSITE IS CURRENTLY UNDER CONSTRUCTION. PLEASE COME BACK SOON</p>
       </div>
      </div>
-     <div class="clearfix colelem" id="paboutme"><!-- group -->
-      <a class="anchor_item grpelem shared_content" id="aboutme" data-content-guid="aboutme_content"></a>
+     <div class="clearfix colelem shared_content" id="paboutme" data-content-guid="paboutme_content"><!-- group -->
+      <a class="anchor_item grpelem" id="aboutme"></a>
       <div class="browser_width grpelem" id="u6003-bw">
        <div id="u6003"><!-- column -->
         <div class="clearfix" id="u6003_align_to_page">
-         <div class="clearfix colelem shared_content" id="u3928-4" data-content-guid="u3928-4_content"><!-- content -->
+         <div class="clearfix colelem" id="u3928-4"><!-- content -->
           <p>About Me</p>
          </div>
-         <div class="clearfix colelem shared_content" id="u5695-7" data-content-guid="u5695-7_content"><!-- content -->
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <div class="clearfix colelem" id="u5695-7"><!-- content -->
+          <p id="u5695-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
          </div>
-         <div class="clearfix colelem" id="pu4214-6"><!-- group -->
-          <div class="rounded-corners clearfix grpelem shared_content" id="u4214-6" data-content-guid="u4214-6_content"><!-- content -->
-           <p>See my <br/>Work</p>
-          </div>
-          <a class="nonblock nontext rounded-corners clearfix grpelem shared_content" id="u5686-6" href="https://drive.google.com/file/d/0Bxb49iOMvSmBQ1BWSW1zbk9Gc2c/view" data-content-guid="u5686-6_content"><!-- content --><p>See my <br/>Résumé</p></a>
-         </div>
+         <a class="nonblock nontext rounded-corners clearfix colelem" id="u5686-6" href="https://drive.google.com/file/d/0Bxb49iOMvSmBQ1BWSW1zbk9Gc2c/view"><!-- content --><p>See my <br/>Résumé</p></a>
         </div>
        </div>
       </div>
      </div>
-     <a class="anchor_item colelem shared_content" id="work" data-content-guid="work_content"></a>
+     <a class="anchor_item colelem shared_content" id="skills" data-content-guid="skills_content"></a>
      <div class="clearfix colelem shared_content" id="u6998-4" data-content-guid="u6998-4_content"><!-- content -->
-      <p>Projects</p>
+      <p>Skills</p>
      </div>
-     <div class="clearfix colelem shared_content" id="pu7782" data-content-guid="pu7782_content"><!-- group -->
-      <div class="museBGSize grpelem shared_content" id="u7782" data-content-guid="u7782_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8023" data-content-guid="u8023_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8032" data-content-guid="u8032_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8064" data-content-guid="u8064_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8065" data-content-guid="u8065_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8087" data-content-guid="u8087_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8088" data-content-guid="u8088_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8089" data-content-guid="u8089_content"><!-- content --></div>
-      <div class="museBGSize grpelem shared_content" id="u8115" data-content-guid="u8115_content"><!-- content --></div>
+     <div class="clearfix colelem" id="pu8459"><!-- group -->
+      <div class="museBGSize grpelem shared_content" id="u8459" data-content-guid="u8459_content"><!-- content --></div>
+      <div class="clearfix grpelem" id="u8512"><!-- group -->
+       <div class="museBGSize grpelem shared_content" id="u7782" data-content-guid="u7782_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8023" data-content-guid="u8023_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8032" data-content-guid="u8032_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8064" data-content-guid="u8064_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8065" data-content-guid="u8065_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8087" data-content-guid="u8087_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8088" data-content-guid="u8088_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8089" data-content-guid="u8089_content"><!-- content --></div>
+       <div class="museBGSize grpelem shared_content" id="u8115" data-content-guid="u8115_content"><!-- content --></div>
+      </div>
+      <div class="museBGSize grpelem shared_content" id="u8460" data-content-guid="u8460_content"><!-- content --></div>
+      <div class="museBGSize grpelem shared_content" id="u8461" data-content-guid="u8461_content"><!-- content --></div>
+      <div class="museBGSize grpelem shared_content" id="u8462" data-content-guid="u8462_content"><!-- content --></div>
+      <div class="museBGSize grpelem shared_content" id="u8496" data-content-guid="u8496_content"><!-- content --></div>
+      <div class="museBGSize grpelem shared_content" id="u8497" data-content-guid="u8497_content"><!-- content --></div>
+      <div class="museBGSize grpelem shared_content" id="u8498" data-content-guid="u8498_content"><!-- content --></div>
+     </div>
+     <div class="clearfix colelem" id="pprojects"><!-- group -->
+      <a class="anchor_item grpelem shared_content" id="projects" data-content-guid="projects_content"></a>
+      <div class="browser_width grpelem shared_content" id="u8532-bw" data-content-guid="u8532-bw_content">
+       <div id="u8532"><!-- group -->
+        <div class="clearfix" id="u8532_align_to_page">
+         <div class="clearfix grpelem" id="u8533-4"><!-- content -->
+          <p>Projects</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="PamphletWidget clearfix grpelem" id="pamphletu8548"><!-- none box -->
+       <div class="popup_anchor" id="u8551popup">
+        <div class="ContainerGroup clearfix" id="u8551"><!-- none box -->
+         <div class="Container rounded-corners clearfix grpelem" id="u8552"><!-- group -->
+          <div class="clearfix grpelem shared_content" id="u8553-7" data-content-guid="u8553-7_content"><!-- content -->
+           <p><span id="u8553">Lorem Ipsum</span><br/><br/>niam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+         </div>
+         <div class="Container invi rounded-corners grpelem" id="u8684"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8698"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8708"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8718"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8728"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8738"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8748"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8758"><!-- simple frame --></div>
+         <div class="Container invi rounded-corners grpelem" id="u8768"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="ThumbGroup clearfix grpelem" id="u8571"><!-- none box -->
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8573"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8693"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8703"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8713"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8723"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8733"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8743"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8753"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8763"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor">
+         <div class="Thumb popup_element rounded-corners" id="u8773"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="popup_anchor">
+        <div class="PamphletPrevButton PamphletLightboxPart popup_element" id="u8549"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="PamphletNextButton PamphletLightboxPart popup_element" id="u8567"><!-- simple frame --></div>
+       </div>
+      </div>
      </div>
      <div class="verticalspacer"></div>
      <div class="browser_width colelem" id="u251-bw">
@@ -104,12 +181,12 @@ var __adobewebfontsappname__ = "muse";
          <p id="u671-2">Made with ♡ by Melany Diaz</p>
         </div>
         <div class="clearfix grpelem shared_content" id="u4647" data-content-guid="u4647_content"><!-- group -->
-         <a class="nonblock nontext rounded-corners clip_frame grpelem shared_content" id="u3578" href="https://plus.google.com/u/0/104267848713075408742" target="_blank" data-content-guid="u3578_content"><!-- svg --><img class="svg temp_no_img_src" id="u3579" data-orig-src="images/googleplusicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/googleplusicon_poster_.png" src="images/blank.gif"/></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem shared_content" id="u868" href="mailto:mraediaz@gmail.com" target="_blank" data-content-guid="u868_content"><!-- svg --><img class="svg temp_no_img_src" id="u869" data-orig-src="images/mailicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/mailicon_poster_.png" src="images/blank.gif"/></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem shared_content" id="u866" href="https://www.facebook.com/melbelldiaz" target="_blank" data-content-guid="u866_content"><!-- svg --><img class="svg temp_no_img_src" id="u867" data-orig-src="images/facebookicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/facebookicon_poster_.png" src="images/blank.gif"/></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem shared_content" id="u864" href="https://www.instagram.com/_.melybelly/" target="_blank" data-content-guid="u864_content"><!-- svg --><img class="svg temp_no_img_src" id="u865" data-orig-src="images/instagramicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/instagramicon_poster_.png" src="images/blank.gif"/></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem shared_content" id="u860" href="https://www.linkedin.com/in/m-diaz/" target="_blank" data-content-guid="u860_content"><!-- svg --><img class="svg temp_no_img_src" id="u861" data-orig-src="images/linkedinicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/linkedinicon_poster_.png" src="images/blank.gif"/></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem shared_content" id="u862" href="https://github.com/mraediaz" target="_blank" data-content-guid="u862_content"><!-- svg --><img class="svg temp_no_img_src" id="u863" data-orig-src="images/githubicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/githubicon_poster_.png" src="images/blank.gif"/></a>
+         <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u3578" href="https://plus.google.com/u/0/104267848713075408742" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u3579" data-orig-src="images/googleplusicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/googleplusicon_poster_.png" src="images/blank.gif"/></a>
+         <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u868" href="mailto:mraediaz@gmail.com" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u869" data-orig-src="images/mailicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/mailicon_poster_.png" src="images/blank.gif"/></a>
+         <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u866" href="https://www.facebook.com/melbelldiaz" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u867" data-orig-src="images/facebookicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/facebookicon_poster_.png" src="images/blank.gif"/></a>
+         <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u864" href="https://www.instagram.com/_.melybelly/" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u865" data-orig-src="images/instagramicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/instagramicon_poster_.png" src="images/blank.gif"/></a>
+         <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u860" href="https://www.linkedin.com/in/m-diaz/" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u861" data-orig-src="images/linkedinicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/linkedinicon_poster_.png" src="images/blank.gif"/></a>
+         <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u862" href="https://github.com/mraediaz" target="_blank"><!-- svg --><img class="svg temp_no_img_src" id="u863" data-orig-src="images/githubicon.svg" width="50" height="50" alt="" data-mu-svgfallback="images/githubicon_poster_.png" src="images/blank.gif"/></a>
         </div>
        </div>
       </div>
@@ -117,8 +194,8 @@ var __adobewebfontsappname__ = "muse";
     </div>
    </div>
   </div>
-  <div class="breakpoint" id="bp_480" data-min-width="321" data-max-width="480"><!-- responsive breakpoint node -->
-   <div class="museBGSize clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+  <div class="breakpoint" id="bp_600" data-max-width="600"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
     <nav class="MenuBar clearfix colelem temp_no_id" data-orig-id="menuu6611"><!-- horizontal box -->
      <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u6619"><!-- vertical box -->
       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix colelem temp_no_id" href="index.html" data-orig-id="u6622"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6625-4"><!-- content --><p class="placeholder" data-placeholder-for="u6625-2_content"><!-- placeholder node --></p></div></a>
@@ -126,106 +203,110 @@ var __adobewebfontsappname__ = "muse";
      <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u6626"><!-- vertical box -->
       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem temp_no_id" href="index.html#aboutme" data-orig-id="u6627"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6629-4"><!-- content --><p class="placeholder" data-placeholder-for="u6629-2_content"><!-- placeholder node --></p></div></a>
      </div>
+     <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u8416"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem temp_no_id" href="index.html#skills" data-orig-id="u8417"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u8420-4"><!-- content --><p class="placeholder" data-placeholder-for="u8420-2_content"><!-- placeholder node --></p></div></a>
+     </div>
      <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u6612"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem temp_no_id" href="index.html#work" data-orig-id="u6613"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6615-4"><!-- content --><p class="placeholder" data-placeholder-for="u6615-2_content"><!-- placeholder node --></p></div></a>
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem temp_no_id" href="index.html#projects" data-orig-id="u6613"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6615-4"><!-- content --><p class="placeholder" data-placeholder-for="u6615-2_content"><!-- placeholder node --></p></div></a>
      </div>
     </nav>
     <div class="browser_width colelem placeholder" data-placeholder-for="u4307-4-bw_content"><!-- placeholder node --></div>
     <div class="clearfix colelem placeholder" data-placeholder-for="u2890-4_content"><!-- placeholder node --></div>
-    <div class="rgba-background rounded-corners clearfix colelem placeholder" data-placeholder-for="u3906-4_content"><!-- placeholder node --></div>
-    <div class="clearfix colelem" id="ppaboutme"><!-- group -->
-     <div class="clearfix grpelem temp_no_id" data-orig-id="paboutme"><!-- column -->
-      <a class="anchor_item colelem placeholder" data-placeholder-for="aboutme_content"><!-- placeholder node --></a>
-      <a class="anchor_item colelem placeholder" data-placeholder-for="work_content"><!-- placeholder node --></a>
-     </div>
-     <div class="browser_width grpelem temp_no_id" data-orig-id="u6003-bw">
-      <div class="temp_no_id" data-orig-id="u6003"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u6003_align_to_page">
-        <div class="clearfix colelem placeholder" data-placeholder-for="u3928-4_content"><!-- placeholder node --></div>
-        <div class="clearfix colelem placeholder" data-placeholder-for="u5695-7_content"><!-- placeholder node --></div>
-        <div class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u4214-6_content"><!-- placeholder node --></div>
-        <a class="nonblock nontext rounded-corners clearfix colelem placeholder" data-placeholder-for="u5686-6_content"><!-- placeholder node --></a>
-       </div>
+    <div class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u3906-4_content"><!-- placeholder node --></div>
+    <div class="clearfix colelem placeholder" data-placeholder-for="paboutme_content"><!-- placeholder node --></div>
+    <div class="clearfix colelem" id="pskills"><!-- group -->
+     <a class="anchor_item grpelem placeholder" data-placeholder-for="skills_content"><!-- placeholder node --></a>
+     <div class="clearfix grpelem placeholder" data-placeholder-for="u6998-4_content"><!-- placeholder node --></div>
+    </div>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu8459"><!-- group -->
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8459_content"><!-- placeholder node --></div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u8512"><!-- group -->
+      <div class="clearfix grpelem" id="pu8032"><!-- group -->
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8032_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8064_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8087_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8115_content"><!-- placeholder node --></div>
+      </div>
+      <div class="clearfix grpelem" id="pu7782"><!-- group -->
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u7782_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8023_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8065_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8088_content"><!-- placeholder node --></div>
+       <div class="museBGSize grpelem placeholder" data-placeholder-for="u8089_content"><!-- placeholder node --></div>
       </div>
      </div>
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8460_content"><!-- placeholder node --></div>
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8461_content"><!-- placeholder node --></div>
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8462_content"><!-- placeholder node --></div>
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8496_content"><!-- placeholder node --></div>
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8497_content"><!-- placeholder node --></div>
+     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8498_content"><!-- placeholder node --></div>
     </div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="u6998-4_content"><!-- placeholder node --></div>
-    <div class="clearfix colelem" id="ppu7782"><!-- group -->
-     <div class="clearfix grpelem temp_no_id" data-orig-id="pu7782"><!-- group -->
-      <div class="museBGSize grpelem placeholder" data-placeholder-for="u7782_content"><!-- placeholder node --></div>
-      <div class="museBGSize grpelem placeholder" data-placeholder-for="u8023_content"><!-- placeholder node --></div>
-      <div class="museBGSize grpelem placeholder" data-placeholder-for="u8065_content"><!-- placeholder node --></div>
-      <div class="museBGSize grpelem placeholder" data-placeholder-for="u8088_content"><!-- placeholder node --></div>
-      <div class="museBGSize grpelem placeholder" data-placeholder-for="u8089_content"><!-- placeholder node --></div>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pprojects"><!-- group -->
+     <a class="anchor_item grpelem placeholder" data-placeholder-for="projects_content"><!-- placeholder node --></a>
+     <div class="browser_width grpelem placeholder" data-placeholder-for="u8532-bw_content"><!-- placeholder node --></div>
+     <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu8548"><!-- none box -->
+      <div class="popup_anchor temp_no_id" data-orig-id="u8551popup">
+       <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u8551"><!-- none box -->
+        <div class="Container rounded-corners clearfix grpelem temp_no_id" data-orig-id="u8552"><!-- group -->
+         <div class="clearfix grpelem placeholder" data-placeholder-for="u8553-7_content"><!-- placeholder node --></div>
+        </div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8684"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8698"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8708"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8718"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8728"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8738"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8748"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8758"><!-- simple frame --></div>
+        <div class="Container invi rounded-corners grpelem temp_no_id" data-orig-id="u8768"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u8571"><!-- none box -->
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8573"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8693"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8703"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8713"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8723"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8733"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8743"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8753"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8763"><!-- simple frame --></div>
+       </div>
+       <div class="popup_anchor">
+        <div class="Thumb popup_element rounded-corners temp_no_id" data-orig-id="u8773"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor">
+       <div class="PamphletPrevButton PamphletLightboxPart popup_element temp_no_id" data-orig-id="u8549"><!-- simple frame --></div>
+      </div>
+      <div class="popup_anchor">
+       <div class="PamphletNextButton PamphletLightboxPart popup_element temp_no_id" data-orig-id="u8567"><!-- simple frame --></div>
+      </div>
      </div>
-     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8032_content"><!-- placeholder node --></div>
-     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8064_content"><!-- placeholder node --></div>
-     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8087_content"><!-- placeholder node --></div>
-     <div class="museBGSize grpelem placeholder" data-placeholder-for="u8115_content"><!-- placeholder node --></div>
     </div>
     <div class="verticalspacer"></div>
     <div class="browser_width colelem temp_no_id" data-orig-id="u251-bw">
      <div class="rgba-background temp_no_id" data-orig-id="u251"><!-- column -->
       <div class="clearfix temp_no_id" data-orig-id="u251_align_to_page">
        <div class="clearfix colelem placeholder" data-placeholder-for="u4647_content"><!-- placeholder node --></div>
-       <div class="clearfix colelem placeholder" data-placeholder-for="u671-4_content"><!-- placeholder node --></div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_320" data-max-width="320"><!-- responsive breakpoint node -->
-   <div class="museBGSize clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
-    <div class="clearfix colelem" id="pu4307-4"><!-- group -->
-     <div class="browser_width grpelem placeholder" data-placeholder-for="u4307-4-bw_content"><!-- placeholder node --></div>
-     <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu6611"><!-- horizontal box -->
-      <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u6619"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix colelem temp_no_id" href="index.html" data-orig-id="u6622"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6625-4"><!-- content --><p class="placeholder" data-placeholder-for="u6625-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-      <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u6626"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem temp_no_id" href="index.html#aboutme" data-orig-id="u6627"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6629-4"><!-- content --><p class="placeholder" data-placeholder-for="u6629-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-      <div class="MenuItemContainer borderbox clearfix grpelem temp_no_id" data-orig-id="u6612"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing borderbox clearfix colelem temp_no_id" href="index.html#work" data-orig-id="u6613"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem temp_no_id" data-orig-id="u6615-4"><!-- content --><p class="placeholder" data-placeholder-for="u6615-2_content"><!-- placeholder node --></p></div></a>
-      </div>
-     </nav>
-    </div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="u2890-4_content"><!-- placeholder node --></div>
-    <div class="rgba-background rounded-corners clearfix colelem placeholder" data-placeholder-for="u3906-4_content"><!-- placeholder node --></div>
-    <div class="clearfix colelem temp_no_id" data-orig-id="ppaboutme"><!-- group -->
-     <div class="clearfix grpelem temp_no_id" data-orig-id="paboutme"><!-- column -->
-      <a class="anchor_item colelem placeholder" data-placeholder-for="aboutme_content"><!-- placeholder node --></a>
-      <a class="anchor_item colelem placeholder" data-placeholder-for="work_content"><!-- placeholder node --></a>
-     </div>
-     <div class="browser_width grpelem temp_no_id" data-orig-id="u6003-bw">
-      <div class="temp_no_id" data-orig-id="u6003"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u6003_align_to_page">
-        <div class="clearfix colelem placeholder" data-placeholder-for="u3928-4_content"><!-- placeholder node --></div>
-        <div class="clearfix colelem placeholder" data-placeholder-for="u5695-7_content"><!-- placeholder node --></div>
-        <div class="rounded-corners clearfix colelem placeholder" data-placeholder-for="u4214-6_content"><!-- placeholder node --></div>
-        <a class="nonblock nontext rounded-corners clearfix colelem placeholder" data-placeholder-for="u5686-6_content"><!-- placeholder node --></a>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="u6998-4_content"><!-- placeholder node --></div>
-    <div class="clearfix colelem placeholder" data-placeholder-for="pu7782_content"><!-- placeholder node --></div>
-    <div class="verticalspacer"></div>
-    <div class="browser_width colelem temp_no_id" data-orig-id="u251-bw">
-     <div class="rgba-background temp_no_id" data-orig-id="u251"><!-- column -->
-      <div class="clearfix temp_no_id" data-orig-id="u251_align_to_page">
-       <div class="clearfix colelem temp_no_id" data-orig-id="u4647"><!-- group -->
-        <a class="nonblock nontext rounded-corners clip_frame grpelem placeholder" data-placeholder-for="u3578_content"><!-- placeholder node --></a>
-        <div class="clearfix grpelem" id="pu866"><!-- group -->
-         <a class="nonblock nontext rounded-corners clip_frame grpelem placeholder" data-placeholder-for="u866_content"><!-- placeholder node --></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem placeholder" data-placeholder-for="u868_content"><!-- placeholder node --></a>
-        </div>
-        <a class="nonblock nontext rounded-corners clip_frame grpelem placeholder" data-placeholder-for="u864_content"><!-- placeholder node --></a>
-        <div class="clearfix grpelem" id="pu862"><!-- group -->
-         <a class="nonblock nontext rounded-corners clip_frame grpelem placeholder" data-placeholder-for="u862_content"><!-- placeholder node --></a>
-         <a class="nonblock nontext rounded-corners clip_frame grpelem placeholder" data-placeholder-for="u860_content"><!-- placeholder node --></a>
-        </div>
-       </div>
        <div class="clearfix colelem placeholder" data-placeholder-for="u671-4_content"><!-- placeholder node --></div>
       </div>
      </div>
@@ -241,9 +322,13 @@ var __adobewebfontsappname__ = "muse";
 </script>
   <script src="scripts/museutils.js?531812214" type="text/javascript"></script>
   <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
-  <script src="scripts/jquery.musepolyfill.bgsize.js?120190942" type="text/javascript"></script>
   <script src="scripts/jquery.musemenu.js?3902934130" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?3866665977" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?120190942" type="text/javascript"></script>
+  <script src="scripts/webpro.js?4156477058" type="text/javascript"></script>
+  <script src="scripts/musewpslideshow.js?4058618124" type="text/javascript"></script>
+  <script src="scripts/jquery.museoverlay.js?3810062583" type="text/javascript"></script>
+  <script src="scripts/touchswipe.js?4174436727" type="text/javascript"></script>
   <script src="scripts/jquery.museresponsive.js?367458044" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -256,7 +341,8 @@ Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_480', '#bp_320'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_600'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu8548', ['#bp_infinity', '#bp_600'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'mouseover',deactivationEvent:'none',autoPlay:true,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu8548 */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});

@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1489994870261">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490029585075">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="master_a-master.css" crc="3928156273" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="253921318" ref="index"/>
-    <file name="index.css" crc="3801074300" ref="index"/>
-    <file name="nomq_index.css" crc="3995990373" ref="index"/>
+    <file name="master_a-master.css" crc="4288129831" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="3837119868" ref="index"/>
+    <file name="index.css" crc="4168445227" ref="index"/>
+    <file name="nomq_index.css" crc="3840479364" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -17,6 +17,10 @@
     <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="jquery.museresponsive.js" crc="367458044" ref="index"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index"/>
+    <file name="webpro.js" crc="4156477058" ref="index"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
   </folder>
   <folder name="images">
     <file name="20160722_002702364_ios.jpg" crc="3857353950" ref="index"/>
@@ -37,8 +41,8 @@
     <file name="hexagon_poster_u8162.png" crc="3875348848" ref="index"/>
     <file name="hexagonroll.svg" crc="3807985068" ref="index"/>
     <file name="hexagonroll_poster_u8170.png" crc="154708907" ref="index"/>
-    <file name="20160722_002702364_ios-page-fr.jpg" crc="348636462" ref="index"/>
-    <file name="20160722_002702364_ios-page-fr2.jpg" crc="21061798" ref="index"/>
+    <file name="previous.png" crc="4088900199" ref="index"/>
+    <file name="next.png" crc="4063397351" ref="index"/>
   </folder>
-  <file name="index.html" crc="4108700532" seo="true" mt="1489994848984" redirect="true"/>
+  <file name="index.html" crc="4292806485" seo="true" mt="1490029571646" redirect="true"/>
 </manifest>
