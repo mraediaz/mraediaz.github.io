@@ -1,26 +1,26 @@
 #u6625-4,#u6629-4,#u6615-4
 {
-	border-color: transparent;
-	text-align: center;
 	border-width: 0px;
+	font-weight: 400;
+	border-color: transparent;
 	line-height: 30px;
+	text-align: center;
 	font-size: 25px;
 	font-family: satisfy, sans-serif;
-	font-weight: 400;
 	background-color: transparent;
 }
 
 #u6622:hover #u6625-4 p,#u6622:hover #u6625-4 span,#u6627:hover #u6629-4 p,#u6627:hover #u6629-4 span,#u6613:hover #u6615-4 p,#u6613:hover #u6615-4 span
 {
+	text-decoration: underline;
 	color: #A67C8F;
 	visibility: inherit;
-	text-decoration: underline;
 }
 
 #u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span
 {
-	visibility: inherit;
 	text-decoration: none;
+	visibility: inherit;
 }
 
 .MenuItem
@@ -35,14 +35,22 @@
 
 #menuu6611,#u4647
 {
+	border-width: 0px;
 	border-color: transparent;
 	background-color: transparent;
-	border-width: 0px;
 }
 
 #u6619,#u6622,#u6626,#u6627,#u6612,#u6613,#u3578,#u866,#u868,#u864,#u862,#u860
 {
 	background-color: transparent;
+}
+
+#u3578:hover,#u866:hover,#u868:hover,#u864:hover,#u862:hover,#u860:hover
+{
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
 }
 
 #u3579,#u867,#u869,#u865,#u863,#u861
@@ -52,13 +60,13 @@
 
 #u671-4
 {
-	font-family: quicksand, sans-serif;
+	color: #30293C;
 	font-size: 17px;
 	font-weight: 400;
-	line-height: 20px;
-	color: #30293C;
 	background-color: transparent;
 	font-style: italic;
+	font-family: quicksand, sans-serif;
+	line-height: 20px;
 }
 
 @media (min-width: 481px)

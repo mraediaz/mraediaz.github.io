@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1489994095751">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1489994870261">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="master_a-master.css" crc="81757477" ref="index"/>
+    <file name="master_a-master.css" crc="3928156273" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="253921318" ref="index"/>
-    <file name="index.css" crc="385754616" ref="index"/>
-    <file name="nomq_index.css" crc="154697225" ref="index"/>
+    <file name="index.css" crc="3801074300" ref="index"/>
+    <file name="nomq_index.css" crc="3995990373" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -40,5 +40,5 @@
     <file name="20160722_002702364_ios-page-fr.jpg" crc="348636462" ref="index"/>
     <file name="20160722_002702364_ios-page-fr2.jpg" crc="21061798" ref="index"/>
   </folder>
-  <file name="index.html" crc="4292501723" seo="true" mt="1489994063080" redirect="true"/>
+  <file name="index.html" crc="4108700532" seo="true" mt="1489994848984" redirect="true"/>
 </manifest>

@@ -174,92 +174,106 @@
 
 	#u7782
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 100px;
-		width: 20.84%;
 		left: 59.69%;
 	}
 
 	#u8023
 	{
-		width: 20.84%;
+		width: 200px;
+		height: 200px;
 		left: 39.59%;
 	}
 
 	#u8023:hover
 	{
-		width: 20.84%;
+		width: 200px;
+		height: 200px;
 	}
 
 	#u8032
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 304px;
-		width: 20.84%;
 		left: 59.69%;
 	}
 
 	#u8064
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 100px;
-		width: 20.84%;
 		left: 20.84%;
 	}
 
 	#u7782:hover,#u8064:hover
 	{
 		margin-top: 100px;
-		width: 20.84%;
+		width: 200px;
+		height: 200px;
 	}
 
 	#u8065
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 404px;
-		width: 20.84%;
 		left: 39.59%;
 	}
 
 	#u8065:hover
 	{
 		margin-top: 404px;
-		width: 20.84%;
+		width: 200px;
+		height: 200px;
 	}
 
 	#u8087
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 204px;
-		width: 20.84%;
 	}
 
 	#u8088
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 204px;
-		width: 20.84%;
 		left: 39.59%;
 	}
 
 	#u8089
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 204px;
-		width: 20.84%;
 		left: 79.17%;
 	}
 
 	#u8087:hover,#u8088:hover,#u8089:hover
 	{
 		margin-top: 204px;
-		width: 20.84%;
+		width: 200px;
+		height: 200px;
 	}
 
 	#u8115
 	{
+		width: 200px;
+		height: 200px;
 		margin-top: 304px;
-		width: 20.84%;
 		left: 20.84%;
 	}
 
 	#u8032:hover,#u8115:hover
 	{
 		margin-top: 304px;
-		width: 20.84%;
+		width: 200px;
+		height: 200px;
 	}
 
 	#u251
@@ -287,6 +301,11 @@
 	#u3578
 	{
 		margin-top: 4px;
+	}
+
+	#u3578:hover
+	{
+		margin-top: 3px;
 	}
 
 	#u868
