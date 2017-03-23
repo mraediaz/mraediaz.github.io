@@ -173,7 +173,7 @@
 
 }
 
-@media (min-width: 321px) and (max-width: 600px)
+@media (min-width: 401px) and (max-width: 600px)
 {
 	#menuu6611
 	{
@@ -302,12 +302,10 @@
 
 }
 
-@media (max-width: 320px)
+@media (max-width: 400px)
 {
 	#accordionu9663
 	{
-		border-style: solid;
-		border-width: 1px;
 		border-color: #7F7F7F;
 		background-color: transparent;
 	}
@@ -315,36 +313,36 @@
 	#u9669-3
 	{
 		border-color: #FFFFFF;
-		background: transparent url("../images/menuicon.svg") no-repeat left top;
+		background: transparent url("../images/menuicon.svg") no-repeat center top;
 		background-size: contain;
 	}
 
 	#u9669-3:hover
 	{
-		background: transparent url("../images/menuiconroll.svg") no-repeat left top;
+		background: transparent url("../images/menuiconroll.svg") no-repeat center top;
 		background-size: contain;
 	}
 
 	#u9669-3:active
 	{
-		background: transparent url("../images/menuiconroll.svg") no-repeat left top;
+		background: transparent url("../images/menuiconroll.svg") no-repeat center top;
 		background-size: contain;
 	}
 
 	#u9669-3.AccordionPanelTabOpen
 	{
-		background: transparent url("../images/menuicon.svg") no-repeat left top;
+		background: transparent url("../images/menuiconroll.svg") no-repeat center top;
 		background-size: contain;
 	}
 
-	.nosvg #u9669-3:hover,.nosvg #u9669-3:active
-	{
-		background-image: url('../images/menuiconroll_poster_u9949.png');
-	}
-
-	.nosvg #u9669-3,.nosvg #u9669-3.AccordionPanelTabOpen
+	.nosvg #u9669-3
 	{
 		background-image: url('../images/menuicon_poster_u9728.png');
+	}
+
+	.nosvg #u9669-3:hover,.nosvg #u9669-3:active,.nosvg #u9669-3.AccordionPanelTabOpen
+	{
+		background-image: url('../images/menuiconroll_poster_u9949.png');
 	}
 
 	#u9669-2
@@ -356,10 +354,8 @@
 
 	#u9670
 	{
-		border-style: solid;
-		border-width: 1px;
 		border-color: #FFFFFF;
-		background-color: transparent;
+		background-color: #E4D4D7;
 	}
 
 	#menuu9736
@@ -489,7 +485,7 @@
 
 	#u251_align_to_page
 	{
-		max-width: 320px;
+		max-width: 400px;
 	}
 
 }
