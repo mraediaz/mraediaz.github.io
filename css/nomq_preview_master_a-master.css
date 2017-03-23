@@ -1,21 +1,115 @@
-	#u6622.MuseMenuActive #u6625-4 p,#u6622.MuseMenuActive #u6625-4 span,#u6613.MuseMenuActive #u6615-4 p,#u6613.MuseMenuActive #u6615-4 span,#u6627.MuseMenuActive #u6629-4 p,#u6627.MuseMenuActive #u6629-4 span,#u8417.MuseMenuActive #u8420-4 p,#u8417.MuseMenuActive #u8420-4 span,#u6625-4
+	#menuu6611
 	{
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+	}
+
+	#u6619,#u6622
+	{
+		background-color: transparent;
+	}
+
+	#u6625-4
+	{
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
 		color: #FFFFFF;
+		line-height: 30px;
+		font-size: 25px;
+		text-align: center;
+		font-family: satisfy, sans-serif;
+		font-weight: 400;
+	}
+
+	#u6622:hover #u6625-4 p
+	{
+		color: #A67C8F;
+		visibility: inherit;
+		text-decoration: underline;
+	}
+
+	#u6626,#u6627
+	{
+		background-color: transparent;
 	}
 
 	#u6629-4
 	{
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
 		color: #FFFFFF;
+		line-height: 30px;
+		font-size: 25px;
+		text-align: center;
+		font-family: satisfy, sans-serif;
+		font-weight: 400;
+	}
+
+	#u6627:hover #u6629-4 p
+	{
+		color: #A67C8F;
+		visibility: inherit;
+		text-decoration: underline;
+	}
+
+	#u8416,#u8417
+	{
+		background-color: transparent;
 	}
 
 	#u8420-4
 	{
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
 		color: #FFFFFF;
+		line-height: 30px;
+		font-size: 25px;
+		text-align: center;
+		font-family: satisfy, sans-serif;
+		font-weight: 400;
+	}
+
+	#u8417:hover #u8420-4 p
+	{
+		color: #A67C8F;
+		visibility: inherit;
+		text-decoration: underline;
+	}
+
+	#u6612,#u6613
+	{
+		background-color: transparent;
 	}
 
 	#u6615-4
 	{
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
 		color: #FFFFFF;
+		line-height: 30px;
+		font-size: 25px;
+		text-align: center;
+		font-family: satisfy, sans-serif;
+		font-weight: 400;
+	}
+
+	#u6613:hover #u6615-4 p
+	{
+		color: #A67C8F;
+		visibility: inherit;
+		text-decoration: underline;
+	}
+
+	#u6622.MuseMenuActive #u6625-4 p,#u6627.MuseMenuActive #u6629-4 p,#u8417.MuseMenuActive #u8420-4 p,#u6613.MuseMenuActive #u6615-4 p
+	{
+		color: #FFFFFF;
+		visibility: inherit;
+		text-decoration: none;
 	}
 
 	#u251
