@@ -17,7 +17,7 @@
 
 	#menuu6611
 	{
-		z-index: 169;
+		z-index: 171;
 		width: 415px;
 		margin-left: 60px;
 		position: relative;
@@ -277,20 +277,14 @@
 
 	#aboutme
 	{
-		margin-top: 110px;
-		left: -501px;
-	}
-
-	#u6003
-	{
-		min-height: 1343.9500000000007px;
-		padding-bottom: 0px;
+		margin-top: 53px;
+		left: -497px;
 	}
 
 	#u6003_align_to_page
 	{
 		max-width: 960px;
-		padding-top: 110px;
+		padding-top: 53px;
 		padding-bottom: 27px;
 	}
 
@@ -300,9 +294,15 @@
 		left: 331px;
 	}
 
+	#u14083
+	{
+		margin-top: 26px;
+		left: 32.09%;
+	}
+
 	#u5695-19
 	{
-		margin-top: 44px;
+		margin-top: 26px;
 		width: 79.9%;
 		left: 10.11%;
 	}
@@ -318,9 +318,9 @@
 		margin-top: 44px;
 	}
 
-	#u6003-bw
+	#u6003,#u6003-bw
 	{
-		min-height: 1343.9500000000007px;
+		min-height: 1344px;
 	}
 
 	#slideshowu13073

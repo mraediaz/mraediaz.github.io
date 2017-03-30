@@ -11,8 +11,8 @@
 #u4647
 {
 	border-width: 0px;
-	background-color: transparent;
 	border-color: transparent;
+	background-color: transparent;
 }
 
 #u3578,#u868,#u866,#u864,#u860,#u862
@@ -22,10 +22,10 @@
 
 #u3578:hover,#u868:hover,#u866:hover,#u864:hover,#u860:hover,#u862:hover
 {
-	border-width: 1px;
-	border-radius: 10px;
-	border-color: #000000;
 	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 10px;
 }
 
 #u3579,#u869,#u867,#u865,#u861,#u863
@@ -36,12 +36,12 @@
 #u671-4
 {
 	color: #30293C;
-	font-family: quicksand, sans-serif;
-	font-style: italic;
-	font-size: 17px;
-	font-weight: 400;
-	background-color: transparent;
 	line-height: 20px;
+	font-weight: 400;
+	font-style: italic;
+	font-family: quicksand, sans-serif;
+	font-size: 17px;
+	background-color: transparent;
 }
 
 @media (min-width: 601px)
@@ -64,9 +64,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -89,9 +89,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -114,9 +114,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -168,9 +168,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -193,9 +193,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -218,9 +218,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -297,8 +297,8 @@
 
 	#u9669-2
 	{
-		color: #999999;
 		line-height: 14px;
+		color: #999999;
 		font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	}
 
@@ -326,9 +326,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -351,9 +351,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
@@ -376,9 +376,9 @@
 		border-color: transparent;
 		background-color: transparent;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
-		color: #FFFFFF;
 		font-family: satisfy, sans-serif;
 		font-weight: 400;
 	}
