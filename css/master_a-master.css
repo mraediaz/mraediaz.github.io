@@ -11,8 +11,8 @@
 #u4647
 {
 	border-color: transparent;
-	border-width: 0px;
 	background-color: transparent;
+	border-width: 0px;
 }
 
 #u3578,#u868,#u866,#u864,#u860,#u862
@@ -23,9 +23,9 @@
 #u3578:hover,#u868:hover,#u866:hover,#u864:hover,#u860:hover,#u862:hover
 {
 	border-color: #000000;
-	border-radius: 10px;
 	border-style: solid;
 	border-width: 1px;
+	border-radius: 10px;
 }
 
 #u3579,#u869,#u867,#u865,#u861,#u863
@@ -40,8 +40,8 @@
 	line-height: 20px;
 	font-family: quicksand, sans-serif;
 	font-weight: 400;
-	background-color: transparent;
 	font-style: italic;
+	background-color: transparent;
 }
 
 @media (min-width: 601px)
@@ -63,8 +63,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -88,8 +88,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -113,8 +113,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -167,8 +167,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -192,8 +192,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -217,8 +217,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -325,8 +325,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -350,8 +350,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -375,8 +375,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		line-height: 30px;
 		color: #FFFFFF;
+		line-height: 30px;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
