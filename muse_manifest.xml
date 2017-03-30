@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490834898970">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490838216394">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="master_a-master.css" crc="160767326" ref="index"/>
+    <file name="master_a-master.css" crc="117299980" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="4261820457" ref="index"/>
-    <file name="index.css" crc="3968156413" ref="index"/>
+    <file name="index.css" crc="3952724667" ref="index"/>
     <file name="nomq_index.css" crc="510919894" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
@@ -52,6 +52,7 @@
     <file name="speechbubbleflip_poster_.png" crc="3855405638" ref="index"/>
     <file name="kalamazoocollege.svg" crc="182715081" ref="index"/>
     <file name="kalamazoocollege_poster_.png" crc="4069967701" ref="index"/>
+    <file name="favicon.ico" crc="332467083" ref="index"/>
   </folder>
-  <file name="index.html" crc="482373037" seo="true" mt="1490834888918" redirect="true"/>
+  <file name="index.html" crc="4271321592" seo="true" mt="1490838179164" redirect="true"/>
 </manifest>
