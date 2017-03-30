@@ -13,7 +13,7 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?131700929"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?160767326"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?202391762" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?3968156413" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?321525473"/>
@@ -338,7 +338,7 @@ var __adobewebfontsappname__ = "muse";
      <div class="accordion_wrapper grpelem" id="accordionu9663wrapper"><!-- vertical box -->
       <div class="browser_width" id="accordionu9663-bw">
        <ul class="AccordionWidget clearfix" id="accordionu9663"><!-- column -->
-        <li class="AccordionPanel clearfix colelem100" id="u9668"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u9669-3"><!-- content --><div id="u9669-2"><p>&nbsp;</p></div></div><div class="AccordionPanelContent clearfix colelem100" id="u9670"><!-- group --><div class="browser_width grpelem" id="menuu9736-bw"><nav class="MenuBar clearfix" id="menuu9736"><!-- vertical box --><div class="MenuItemContainer clearfix colelem100" id="u9751"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix" id="u9754" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u9756-4"><!-- content --><p>Home</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u9744"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix" id="u9747" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u9750-4"><!-- content --><p>Contact Me</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u9758"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix" id="u9759" href="index.html#aboutme"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u9760-4"><!-- content --><p>About Me</p></div></a></div></nav></div></div></li>
+        <li class="AccordionPanel clearfix colelem100" id="u9668"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u9669-3"><!-- content --><div id="u9669-2"><p>&nbsp;</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u9670"><!-- group --><div class="browser_width grpelem" id="menuu9736-bw"><nav class="MenuBar clearfix" id="menuu9736"><!-- vertical box --><div class="MenuItemContainer clearfix colelem100" id="u9751"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix" id="u9754" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u9756-4"><!-- content --><p>Home</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u9744"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix" id="u9747" href="index.html#contact"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u9750-4"><!-- content --><p>Contact Me</p></div></a></div><div class="MenuItemContainer clearfix colelem100" id="u9758"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix" id="u9759" href="index.html#aboutme"><!-- horizontal box --><div class="MenuItemLabel clearfix" id="u9760-4"><!-- content --><p>About Me</p></div></a></div></nav></div></div></li>
        </ul>
       </div>
      </div>
@@ -488,7 +488,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_600', '#bp_400'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#slideshowu13073', ['#bp_infinity', '#bp_600', '#bp_400'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:5000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:700,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:700,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu13073 */
-Muse.Utils.initWidget('#accordionu9663', ['#bp_400'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:0}); });/* #accordionu9663 */
+Muse.Utils.initWidget('#accordionu9663', ['#bp_400'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu9663 */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});

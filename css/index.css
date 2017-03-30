@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #00000C;
-	background-color: #1040D2;
+	color: #0000EC;
+	background-color: #8542FD;
 }
 
 .js body
@@ -1918,6 +1918,7 @@
 	{
 		min-height: 638px;
 		z-index: 174;
+		margin-bottom: -201px;
 		margin-right: -10000px;
 	}
 
@@ -2092,7 +2093,7 @@
 
 	#pcontact
 	{
-		margin-top: 42px;
+		margin-top: 243px;
 		width: 100%;
 	}
 
