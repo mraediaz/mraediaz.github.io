@@ -18,6 +18,7 @@
 	#page_position_content
 	{
 		padding-top: 20px;
+		width: 100%;
 	}
 
 	#menuu6611
@@ -168,12 +169,14 @@
 
 	#u2890-4
 	{
+		z-index: 176;
 		margin-top: 135px;
 		margin-left: 6.25%;
 	}
 
 	#u3906-4
 	{
+		z-index: 180;
 		margin-top: 52px;
 		width: 54.07%;
 		margin-left: 22.92%;
@@ -464,29 +467,84 @@
 		margin-top: 1px;
 	}
 
+	#accordionu14106
+	{
+		z-index: 166;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #7F7F7F;
+		background-color: transparent;
+	}
+
+	#u14107
+	{
+		z-index: 167;
+		background-color: transparent;
+	}
+
 	#u14110-6
 	{
+		z-index: 168;
 		min-height: 40px;
+		border-color: #FFFFFF;
+		background-color: #A67C8F;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		line-height: 20px;
+		color: #FFFFFF;
 		font-size: 20px;
+		text-align: center;
+		font-family: quicksand, sans-serif;
 		font-weight: 400;
 	}
 
 	#u14110-6.AccordionPanelTabOpen
 	{
+		padding-top: 10px;
+		padding-bottom: 10px;
 		min-height: 40px;
+		margin: 0px 0px 0px 0%;
+	}
+
+	#u14110-6.AccordionPanelTabOpen p
+	{
+		text-align: center;
+	}
+
+	#u14108
+	{
+		z-index: 174;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #FFFFFF;
+		background-color: #FFFFFF;
 	}
 
 	#u14171
 	{
+		z-index: 175;
 		height: 320px;
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+		max-width: 100000px;
+		min-width: 100px;
+		position: relative;
+		margin-right: -10000px;
 		margin-top: -1px;
 		width: 53.44%;
 		left: 23.13%;
 	}
 
+	.AccordionPanelTab /* accordion */
+	{
+		cursor: pointer;
+	}
+
 	#accordionu14106-bw
 	{
+		z-index: 166;
 		margin-top: -1px;
 		margin-bottom: -1px;
 	}
