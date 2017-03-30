@@ -10,14 +10,19 @@
 
 	#page
 	{
-		min-height: 4263px;
-		padding-top: 20px;
+		min-height: 4441.5px;
+		padding-bottom: 1px;
 		max-width: 960px;
+	}
+
+	#page_position_content
+	{
+		padding-top: 20px;
 	}
 
 	#menuu6611
 	{
-		z-index: 174;
+		z-index: 184;
 		width: 415px;
 		margin-left: 60px;
 		position: relative;
@@ -459,10 +464,42 @@
 		margin-top: 1px;
 	}
 
+	#u14110-6
+	{
+		min-height: 40px;
+		line-height: 20px;
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	#u14110-6.AccordionPanelTabOpen
+	{
+		min-height: 40px;
+	}
+
+	#u14171
+	{
+		height: 320px;
+		margin-top: -1px;
+		width: 53.44%;
+		left: 23.13%;
+	}
+
+	#accordionu14106-bw
+	{
+		margin-top: -1px;
+		margin-bottom: -1px;
+	}
+
 	#u251
 	{
 		min-height: 70px;
 		padding-bottom: 20px;
+	}
+
+	#u251_align_to_page
+	{
+		margin-bottom: -2px;
 	}
 
 	#u671-4
@@ -524,5 +561,6 @@
 	#u251-bw
 	{
 		min-height: 70px;
+		margin-top: -2px;
 	}
 
