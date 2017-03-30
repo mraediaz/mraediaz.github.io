@@ -10,8 +10,7 @@
 
 	#page
 	{
-		min-height: 4441.5px;
-		padding-bottom: 1px;
+		min-height: 4442px;
 		max-width: 960px;
 	}
 
@@ -521,20 +520,18 @@
 		background-color: #FFFFFF;
 	}
 
-	#u14171
+	#u14187
 	{
 		z-index: 175;
-		height: 320px;
+		min-height: 364px;
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		max-width: 100000px;
-		min-width: 100px;
 		position: relative;
 		margin-right: -10000px;
 		margin-top: -1px;
-		width: 53.44%;
-		left: 23.13%;
+		width: 66.67%;
+		left: 16.57%;
 	}
 
 	.AccordionPanelTab /* accordion */
@@ -545,8 +542,8 @@
 	#accordionu14106-bw
 	{
 		z-index: 166;
-		margin-top: -1px;
-		margin-bottom: -1px;
+		margin-top: -2px;
+		margin-bottom: -2px;
 	}
 
 	#u251
@@ -557,7 +554,7 @@
 
 	#u251_align_to_page
 	{
-		margin-bottom: -2px;
+		margin-bottom: -1px;
 	}
 
 	#u671-4
@@ -619,6 +616,6 @@
 	#u251-bw
 	{
 		min-height: 70px;
-		margin-top: -2px;
+		margin-top: -1px;
 	}
 

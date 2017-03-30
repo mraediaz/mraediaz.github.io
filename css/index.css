@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E1;
-	background-color: #FC3AC7;
+	color: #00000D;
+	background-color: #E87A56;
 }
 
 .js body
@@ -796,8 +796,7 @@
 
 	#page
 	{
-		min-height: 4441.5px;
-		padding-bottom: 1px;
+		min-height: 4442px;
 		max-width: 960px;
 	}
 
@@ -1307,20 +1306,18 @@
 		background-color: #FFFFFF;
 	}
 
-	#u14171
+	#u14187
 	{
 		z-index: 175;
-		height: 320px;
+		min-height: 364px;
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		max-width: 100000px;
-		min-width: 100px;
 		position: relative;
 		margin-right: -10000px;
 		margin-top: -1px;
-		width: 53.44%;
-		left: 23.13%;
+		width: 66.67%;
+		left: 16.57%;
 	}
 
 	.AccordionPanelTab /* accordion */
@@ -1331,8 +1328,8 @@
 	#accordionu14106-bw
 	{
 		z-index: 166;
-		margin-top: -1px;
-		margin-bottom: -1px;
+		margin-top: -2px;
+		margin-bottom: -2px;
 	}
 
 	#u251
@@ -1343,7 +1340,7 @@
 
 	#u251_align_to_page
 	{
-		margin-bottom: -2px;
+		margin-bottom: -1px;
 	}
 
 	#u671-4
@@ -1405,7 +1402,7 @@
 	#u251-bw
 	{
 		min-height: 70px;
-		margin-top: -2px;
+		margin-top: -1px;
 	}
 }
 
@@ -1423,7 +1420,8 @@
 
 	#page
 	{
-		min-height: 528px;
+		min-height: 527.8750000000064px;
+		padding-bottom: 0px;
 		max-width: 600px;
 	}
 
@@ -1886,14 +1884,12 @@
 		border-width: 1px;
 		border-color: #7F7F7F;
 		background-color: transparent;
-		padding-bottom: 0px;
 	}
 
 	#u14107
 	{
 		z-index: 167;
 		background-color: transparent;
-		padding-bottom: 0px;
 	}
 
 	#u14110-6
@@ -1934,20 +1930,19 @@
 		background-color: #FFFFFF;
 	}
 
-	#u14171
+	#u14187
 	{
 		z-index: 175;
-		height: 320px;
+		min-height: 341px;
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		max-width: 100000px;
-		min-width: 100px;
+		margin-bottom: -1px;
 		position: relative;
 		margin-right: -10000px;
 		margin-top: -1px;
-		width: 85.5%;
-		left: 7.01%;
+		width: 106.67%;
+		left: 0.17%;
 	}
 
 	.AccordionPanelTab /* accordion */
@@ -1962,10 +1957,16 @@
 		margin-bottom: -1px;
 	}
 
+	#u251
+	{
+		min-height: 90px;
+	}
+
 	#u251_align_to_page
 	{
 		padding-top: 2px;
 		padding-bottom: 18px;
+		margin-bottom: -1px;
 	}
 
 	#u4647,#u3578
@@ -2048,9 +2049,10 @@
 		left: -124px;
 	}
 
-	#u251,#u251-bw
+	#u251-bw
 	{
 		min-height: 90px;
+		margin-top: -1px;
 	}
 }
 

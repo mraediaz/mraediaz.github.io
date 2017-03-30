@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490842009962">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490842480767">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
     <file name="master_a-master.css" crc="3796263473" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="4261820457" ref="index"/>
-    <file name="index.css" crc="3791403719" ref="index"/>
-    <file name="nomq_index.css" crc="3965680122" ref="index"/>
+    <file name="index.css" crc="233339478" ref="index"/>
+    <file name="nomq_index.css" crc="150694057" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -54,5 +54,5 @@
     <file name="kalamazoocollege_poster_.png" crc="4069967701" ref="index"/>
     <file name="favicon.ico" crc="332467083" ref="index"/>
   </folder>
-  <file name="index.html" crc="112005055" seo="true" mt="1490841997722" redirect="true"/>
+  <file name="index.html" crc="4274863252" seo="true" mt="1490842470703" redirect="true"/>
 </manifest>
