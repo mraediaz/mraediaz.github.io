@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490295705596">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1490832212446">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="master_a-master.css" crc="405914216" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="346437232" ref="index"/>
-    <file name="index.css" crc="391753723" ref="index"/>
-    <file name="nomq_index.css" crc="225829028" ref="index"/>
+    <file name="master_a-master.css" crc="459928759" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="355976981" ref="index"/>
+    <file name="index.css" crc="4179880250" ref="index"/>
+    <file name="nomq_index.css" crc="4287093967" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -37,17 +37,21 @@
     <file name="githubicon_poster_.png" crc="4195372792" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="googleplusicon.svg" crc="401767670" ref="index"/>
-    <file name="googleplusicon_poster_.png" crc="270166182" ref="index"/>
-    <file name="hexagon.svg" crc="63921185" ref="index"/>
-    <file name="hexagon_poster_u8162.png" crc="3875348848" ref="index"/>
-    <file name="hexagonroll.svg" crc="3807985068" ref="index"/>
-    <file name="hexagonroll_poster_u8170.png" crc="154708907" ref="index"/>
-    <file name="previous.png" crc="4088900199" ref="index"/>
-    <file name="next.png" crc="4063397351" ref="index"/>
+    <file name="googleplusicon_poster_.png" crc="126287303" ref="index"/>
     <file name="menuicon.svg" crc="119234931" ref="index"/>
     <file name="menuicon_poster_u9728.png" crc="219211019" ref="index"/>
     <file name="menuiconroll.svg" crc="4172723563" ref="index"/>
     <file name="menuiconroll_poster_u9949.png" crc="94012125" ref="index"/>
+    <file name="defending.jpg" crc="187842847" seo="true" ref="index"/>
+    <file name="graduation.jpg" crc="3942710888" seo="true" ref="index"/>
+    <file name="my family and i at graduation.jpg" crc="324434446" seo="true" ref="index"/>
+    <file name="pam and i.jpg" crc="493561736" seo="true" ref="index"/>
+    <file name="sisters and i at graduation.jpg" crc="316072560" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="speechbubble.svg" crc="210196549" ref="index"/>
+    <file name="speechbubble_poster_.png" crc="359505177" ref="index"/>
+    <file name="speechbubbleflip.svg" crc="132048531" ref="index"/>
+    <file name="speechbubbleflip_poster_.png" crc="3855405638" ref="index"/>
   </folder>
-  <file name="index.html" crc="393389831" seo="true" mt="1490295578333" redirect="true"/>
+  <file name="index.html" crc="362460950" seo="true" mt="1490832137114" redirect="true"/>
 </manifest>
