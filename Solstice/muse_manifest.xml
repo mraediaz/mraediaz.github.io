@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491237076839">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491237855480">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="379672159" ref="index"/>
-    <file name="nomq_index.css" crc="72184341" ref="index"/>
+    <file name="index.css" crc="520458788" ref="index"/>
+    <file name="nomq_index.css" crc="3940893184" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -22,5 +22,5 @@
     <file name="favoritestar_poster_.png" crc="144366941" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="349165631" seo="true" mt="1491236862517" redirect="true"/>
+  <file name="index.html" crc="276192489" seo="true" mt="1491237846827" redirect="true"/>
 </manifest>
