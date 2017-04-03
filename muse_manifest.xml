@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491237044358">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491246070285">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="master_a-master.css" crc="4145872413" ref="index"/>
+    <file name="master_a-master.css" crc="72451807" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="4261820457" ref="index"/>
-    <file name="index.css" crc="369070426" ref="index"/>
+    <file name="index.css" crc="212575276" ref="index"/>
     <file name="nomq_index.css" crc="4141552670" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
@@ -54,5 +54,5 @@
     <file name="menuiconroll.svg" crc="4172723563" ref="index"/>
     <file name="menuiconroll_poster_u9949.png" crc="94012125" ref="index"/>
   </folder>
-  <file name="index.html" crc="317639649" seo="true" mt="1490845950496" redirect="true"/>
+  <file name="index.html" crc="223731634" seo="true" mt="1491246056582" redirect="true"/>
 </manifest>

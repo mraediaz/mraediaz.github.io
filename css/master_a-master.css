@@ -11,8 +11,8 @@
 #u4647
 {
 	border-color: transparent;
-	background-color: transparent;
 	border-width: 0px;
+	background-color: transparent;
 }
 
 #u3578,#u868,#u866,#u864,#u860,#u862
@@ -23,9 +23,9 @@
 #u3578:hover,#u868:hover,#u866:hover,#u864:hover,#u860:hover,#u862:hover
 {
 	border-color: #000000;
-	border-style: solid;
 	border-width: 1px;
 	border-radius: 10px;
+	border-style: solid;
 }
 
 #u3579,#u869,#u867,#u865,#u861,#u863
@@ -36,12 +36,12 @@
 #u671-4
 {
 	color: #30293C;
-	line-height: 20px;
-	font-size: 17px;
-	font-style: italic;
-	font-weight: 400;
-	background-color: transparent;
 	font-family: quicksand, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 20px;
+	background-color: transparent;
 }
 
 @media (min-width: 601px)
