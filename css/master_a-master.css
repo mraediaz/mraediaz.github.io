@@ -35,13 +35,13 @@
 
 #u671-4
 {
-	font-size: 17px;
 	color: #30293C;
 	line-height: 20px;
-	font-family: quicksand, sans-serif;
-	font-weight: 400;
+	font-size: 17px;
 	font-style: italic;
+	font-weight: 400;
 	background-color: transparent;
+	font-family: quicksand, sans-serif;
 }
 
 @media (min-width: 601px)
@@ -63,8 +63,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -88,8 +88,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -113,8 +113,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -167,8 +167,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -192,8 +192,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -217,8 +217,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -297,8 +297,8 @@
 
 	#u9669-2
 	{
-		color: #999999;
 		line-height: 14px;
+		color: #999999;
 		font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	}
 
@@ -325,8 +325,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -350,8 +350,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;
@@ -375,8 +375,8 @@
 		border-width: 0px;
 		border-color: transparent;
 		background-color: transparent;
-		color: #FFFFFF;
 		line-height: 30px;
+		color: #FFFFFF;
 		font-size: 25px;
 		text-align: center;
 		font-family: satisfy, sans-serif;

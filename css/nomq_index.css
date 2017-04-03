@@ -487,15 +487,8 @@
 		min-height: 40px;
 		border-color: #FFFFFF;
 		background-color: #A67C8F;
-		padding-left: 10px;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		color: #FFFFFF;
-		line-height: 20px;
-		font-size: 20px;
-		text-align: center;
-		font-family: quicksand, sans-serif;
-		font-weight: 400;
 	}
 
 	#u14110-6.AccordionPanelTabOpen
@@ -509,6 +502,17 @@
 	#u14110-6.AccordionPanelTabOpen p
 	{
 		text-align: center;
+	}
+
+	#u14110-5
+	{
+		line-height: 20px;
+		color: #FFFFFF;
+		font-size: 20px;
+		text-align: center;
+		font-family: quicksand, sans-serif;
+		font-weight: 400;
+		margin-left: 10px;
 	}
 
 	#u14108
@@ -531,7 +535,8 @@
 		margin-right: -10000px;
 		margin-top: -1px;
 		width: 66.67%;
-		left: 16.57%;
+		margin-left: 16.67%;
+		left: -1px;
 	}
 
 	.AccordionPanelTab /* accordion */

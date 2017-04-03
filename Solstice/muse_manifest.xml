@@ -1,0 +1,26 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491237076839">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="379672159" ref="index"/>
+    <file name="nomq_index.css" crc="72184341" ref="index"/>
+    <file name="iefonts_index.css" crc="321525473" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index"/>
+    <file name="museutils.js" crc="531812214" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index"/>
+    <file name="webpro.js" crc="4156477058" ref="index"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3974494556" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="367458044" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="favoritestar.svg" crc="4221255110" ref="index"/>
+    <file name="favoritestar_poster_.png" crc="144366941" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="349165631" seo="true" mt="1491236862517" redirect="true"/>
+</manifest>
