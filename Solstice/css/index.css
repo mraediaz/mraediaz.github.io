@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #00001F;
-	background-color: #059224;
+	color: #00000B;
+	background-color: #40E316;
 }
 
 .js body
@@ -16,48 +16,48 @@
 
 #page
 {
-	margin-left: auto;
-	border-color: #000000;
-	background-image: none;
-	z-index: 1;
 	border-width: 0px;
-	background-color: transparent;
+	border-color: #000000;
+	z-index: 1;
 	margin-right: auto;
+	background-color: transparent;
+	background-image: none;
+	margin-left: auto;
 }
 
 #u106
 {
-	z-index: 2;
-	background-color: #00E5B5;
 	min-height: 62px;
+	background-color: #00E5B5;
+	z-index: 2;
 }
 
 #u106_align_to_page
 {
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 	position: relative;
 }
 
 #u111-4
 {
 	color: #FFFFFF;
-	font-family: quicksand, sans-serif;
-	font-size: 25px;
-	position: relative;
-	z-index: 3;
-	line-height: 30px;
-	font-weight: 700;
 	background-color: transparent;
-	min-height: 42px;
+	position: relative;
 	margin-right: -10000px;
+	line-height: 30px;
 	margin-top: 20px;
+	font-family: quicksand, sans-serif;
+	z-index: 3;
+	font-weight: 700;
+	min-height: 42px;
+	font-size: 25px;
 }
 
 #u106-bw
 {
-	z-index: 2;
 	min-height: 62px;
+	z-index: 2;
 }
 
 .html
@@ -1145,26 +1145,13 @@ body
 	#u625-7
 	{
 		z-index: 9;
-		min-height: 96px;
+		min-height: 90px;
 		border-color: #FFFFFF;
 		background-color: #DEDEDE;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		position: relative;
 		width: 100%;
-	}
-
-	#u625-7.AccordionPanelTabOpen
-	{
-		border-style: solid;
-		border-width: 3px;
-		border-color: #000000;
-		background-color: #FFFFFF;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		min-height: 96px;
-		width: 100%;
-		margin: 0px 0px 0px 0%;
 	}
 
 	#u626
@@ -1195,6 +1182,7 @@ body
 	#u1032-4
 	{
 		z-index: 18;
+		width: 196px;
 		min-height: 23px;
 		background-color: transparent;
 		line-height: 30px;
@@ -1203,7 +1191,6 @@ body
 		font-weight: 300;
 		margin-top: 13px;
 		position: relative;
-		width: 22.85%;
 		margin-left: 38.23%;
 	}
 
@@ -1542,6 +1529,19 @@ body
 		width: 100%;
 	}
 
+	#u625-7.AccordionPanelTabOpen,#u2874-7.AccordionPanelTabOpen
+	{
+		border-style: solid;
+		border-width: 3px;
+		border-color: #000000;
+		background-color: #FFFFFF;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		min-height: 90px;
+		width: 100%;
+		margin: 0px 0px 0px 0%;
+	}
+
 	#u2850
 	{
 		z-index: 114;
@@ -1570,6 +1570,7 @@ body
 	#u2973-4
 	{
 		z-index: 184;
+		width: 196px;
 		min-height: 23px;
 		background-color: transparent;
 		line-height: 30px;
@@ -1578,7 +1579,6 @@ body
 		font-weight: 300;
 		margin-top: 13px;
 		position: relative;
-		width: 22.85%;
 		margin-left: 38.23%;
 	}
 
@@ -1908,7 +1908,7 @@ body
 	#u2936-7
 	{
 		z-index: 205;
-		min-height: 90px;
+		min-height: 96px;
 		border-color: #FFFFFF;
 		background-color: #DEDEDE;
 		padding-top: 10px;
@@ -1917,7 +1917,7 @@ body
 		width: 100%;
 	}
 
-	#u2874-7.AccordionPanelTabOpen,#u2936-7.AccordionPanelTabOpen
+	#u2936-7.AccordionPanelTabOpen
 	{
 		border-style: solid;
 		border-width: 3px;
@@ -1925,7 +1925,7 @@ body
 		background-color: #FFFFFF;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		min-height: 90px;
+		min-height: 96px;
 		width: 100%;
 		margin: 0px 0px 0px 0%;
 	}
@@ -1943,8 +1943,8 @@ body
 
 	#u625-6,#u2874-6,#u2936-6
 	{
-		line-height: 28px;
 		color: #999999;
+		line-height: 28px;
 		text-align: center;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
@@ -2006,6 +2006,7 @@ body
 	#u3272-4
 	{
 		z-index: 282;
+		width: 196px;
 		min-height: 23px;
 		background-color: transparent;
 		line-height: 30px;
@@ -2014,7 +2015,6 @@ body
 		font-weight: 300;
 		margin-top: 13px;
 		position: relative;
-		width: 22.85%;
 		margin-left: 38.23%;
 	}
 
