@@ -11,8 +11,8 @@
 	#page
 	{
 		width: 900px;
-		min-height: 616px;
-		padding-bottom: 41px;
+		min-height: 648px;
+		padding-bottom: 64px;
 	}
 
 	#u106_align_to_page
@@ -32,7 +32,7 @@
 		z-index: 7;
 		width: 0.01px;
 		height: 66px;
-		padding-bottom: 470px;
+		padding-bottom: 504px;
 		position: relative;
 		margin-right: -10000px;
 	}
@@ -107,8 +107,8 @@
 		width: 191px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -129,8 +129,8 @@
 		width: 191px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 9px;
@@ -171,7 +171,7 @@
 		background-color: transparent;
 		padding-left: 14px;
 		padding-top: 16px;
-		padding-bottom: 20px;
+		padding-bottom: 54px;
 		margin-right: -10000px;
 		position: relative;
 	}
@@ -209,8 +209,8 @@
 		width: 400px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 30px;
 		font-size: 25px;
+		line-height: 30px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -222,8 +222,8 @@
 		width: 400px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		margin-top: 13px;
@@ -236,8 +236,8 @@
 		width: 400px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 5px;
@@ -250,8 +250,8 @@
 		width: 400px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		margin-top: 6px;
@@ -264,8 +264,8 @@
 		width: 400px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 6px;
@@ -278,8 +278,8 @@
 		width: 94px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		position: relative;
@@ -292,8 +292,8 @@
 		width: 480px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -308,8 +308,8 @@
 		width: 94px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		position: relative;
@@ -322,8 +322,8 @@
 		width: 480px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -338,8 +338,8 @@
 		width: 94px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		margin-top: 5px;
@@ -358,8 +358,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -373,8 +373,8 @@
 		width: 66px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		position: relative;
@@ -394,8 +394,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -409,8 +409,8 @@
 		width: 66px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		position: relative;
@@ -430,8 +430,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		position: relative;
@@ -445,8 +445,8 @@
 		width: 66px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		position: relative;
@@ -460,8 +460,8 @@
 		width: 94px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 24px;
 		font-size: 20px;
+		line-height: 24px;
 		font-family: quicksand, sans-serif;
 		font-weight: 400;
 		margin-top: 7px;
@@ -474,8 +474,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 5px;
@@ -488,8 +488,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 5px;
@@ -502,8 +502,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 4px;
@@ -516,8 +516,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 5px;
@@ -530,8 +530,8 @@
 		width: 253px;
 		min-height: 23px;
 		background-color: transparent;
-		line-height: 18px;
 		font-size: 15px;
+		line-height: 18px;
 		font-family: quicksand, sans-serif;
 		font-weight: 300;
 		margin-top: 5px;
@@ -550,7 +550,7 @@
 
 	.verticalspacer
 	{
-		margin-bottom: -515px;
-		min-height: 533px;
+		margin-bottom: -572px;
+		min-height: 588px;
 	}
 
