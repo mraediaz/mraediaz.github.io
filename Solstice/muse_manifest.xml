@@ -1,8 +1,8 @@
-<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491238544143">
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491287204789">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="188801814" ref="index"/>
-    <file name="nomq_index.css" crc="3940893184" ref="index"/>
+    <file name="index.css" crc="4143246127" ref="index"/>
+    <file name="nomq_index.css" crc="3976586289" ref="index"/>
     <file name="iefonts_index.css" crc="321525473" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -17,10 +17,6 @@
     <file name="musewpdisclosure.js" crc="3974494556" ref="index"/>
     <file name="jquery.museresponsive.js" crc="367458044" ref="index"/>
   </folder>
-  <folder name="images">
-    <file name="favoritestar.svg" crc="4221255110" ref="index"/>
-    <file name="favoritestar_poster_.png" crc="144366941" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-  </folder>
-  <file name="index.html" crc="3793085323" seo="true" mt="1491238537202" redirect="true"/>
+  <folder name="images"/>
+  <file name="index.html" crc="4243883204" seo="true" mt="1491287193079" redirect="true"/>
 </manifest>
