@@ -1,0 +1,65 @@
+<html ng-app="contactList">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact List for Solstice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script>
+      var contactList = angular.module('contactList', []);
+      contactList.controller('ContactCtrl', function ($scope, $http){
+        $http.get('contacts.json').success(function(data) {
+          $scope.contacts = data;
+        });
+      });
+    </script>
+  </head>
+
+  <div class="container">
+    <div class="row panel panel-primary" ng-controller="ContactCtrl">
+      <div class="panel-heading">
+        <h2 class="panel-title">Contact List for Solstice</h2>
+      </div>
+
+      <!--     contact list      -->
+      <div class="col-xs-5 panel-body">
+        <ul class="list-group">
+          <li class="list-group-item"> <h4>Contacts:</h4>
+            <contact class="list-group-item" ng-repeat="contact in contacts">
+              <img src="{{contact.smallImageURL}}"/>
+              {{contact.name}} 
+            </contact>
+          </li>
+        </ul> 
+      </div>
+      
+
+       <!--   ng-view below       -->
+      <div class="col-xs-7">
+        <div class="list-group panel-body">
+          <div ng-view></div>
+            <div class="list-group-item"> <h4>Contact Details</h4>
+              <!-- <contact class="list-group-item" ng-repeat="contact in contacts">
+              <img src="{{contact.smallImageURL}}"/>
+              {{contact.name}}
+              </contact> -->
+              <h3 class="text-center"><img src="https://s3.amazonaws.com/technical-challenge/images/image11_large.jpeg"/></h3>
+              <!-- <h3 class="text-center"><img src="{{contact.largeImageURL}}"/></h3> -->
+              <p>Name: <a ng-href="{{currentContact.name}}">{{currentContact.name}}</a></p>
+              <p>Company: <a ng-href="{{currentContact.company}}">{{currentContact.company}}</a></p>
+              <p>Bebsite: <a ng-href="{{currentContact.website}}">{{currentContact.website}}</a></p>
+              <p>Birthday: <a ng-href="{{currentContact.birthdate}}">{{currentContact.birthdate}}</a></p>
+              <p>E-mail: <a ng-href="{{currentContact.email}}">{{currentContact.email}}</a></p>
+              <p>Work Phone: <a ng-href="{{currentContact.phone.work}}">{{currentContact.phone.work}}</a></p>
+              <p>Home Phone: <a ng-href="{{currentContact.phone.home}}">{{currentContact.phone.home}}</a></p>
+              <p>Mobile Phone: <a ng-href="{{currentContact.phone.mobile}}">{{currentContact.phone.mobile}}</a></p>
+              <p>Address: <a ng-href="{{currentContact.address.street}}">{{currentContact.address.street}}<br/> <a ng-href="{{currentContact.address.city}}">{{currentContact.address.city}}</a>, <a ng-href="{{currentContact.address.state}}">{{currentContact.address.state}}, <a ng-href="{{currentContact.address.zip}}">{{currentContact.address.zip}}<br/> <a ng-href="{{currentContact.address.county}}">{{currentContact.address.country}}</p>
+              </div>
+        </div>
+      </div>
+        
+    </div>
+  </div>
+
+   
+
+</html>

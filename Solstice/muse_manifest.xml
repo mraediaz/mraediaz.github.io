@@ -1,0 +1,21 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="mraediaz.github.io" resolutions="1x" timestamp="1491288510599">
+  <folder name="css">
+    <file name="site_global.css" crc="131700929"/>
+    <file name="index.css" crc="4113382848" ref="index"/>
+    <file name="nomq_index.css" crc="4216282400" ref="index"/>
+    <file name="iefonts_index.css" crc="321525473" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index"/>
+    <file name="museutils.js" crc="531812214" ref="index"/>
+    <file name="whatinput.js" crc="84559013" ref="index"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index"/>
+    <file name="webpro.js" crc="4156477058" ref="index"/>
+    <file name="musewpslideshow.js" crc="4058618124" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="3810062583" ref="index"/>
+    <file name="touchswipe.js" crc="4174436727" ref="index"/>
+    <file name="musewpdisclosure.js" crc="3974494556" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="367458044" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4243883204" seo="true" mt="1491288496051" redirect="true"/>
+</manifest>
