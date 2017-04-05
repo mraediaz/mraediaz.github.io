@@ -23,8 +23,8 @@
 #u3578:hover,#u868:hover,#u866:hover,#u864:hover,#u860:hover,#u862:hover
 {
 	border-width: 1px;
-	border-color: #000000;
 	border-style: solid;
+	border-color: #000000;
 	border-radius: 10px;
 }
 
@@ -35,13 +35,13 @@
 
 #u671-4
 {
-	font-style: italic;
 	color: #30293C;
-	line-height: 20px;
-	font-size: 17px;
+	font-style: italic;
 	background-color: transparent;
 	font-weight: 400;
 	font-family: quicksand, sans-serif;
+	font-size: 17px;
+	line-height: 20px;
 }
 
 @media (min-width: 601px)
@@ -297,8 +297,8 @@
 
 	#u9669-2
 	{
-		line-height: 14px;
 		color: #999999;
+		line-height: 14px;
 		font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	}
 
