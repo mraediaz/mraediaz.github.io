@@ -4,20 +4,57 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Text Me One' rel='stylesheet'>
+
     <style>
     body {
         font-family: 'Text Me One';
         text-align: right;
+
     }
+
+    .split {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    /* Control the left side */
+    .left {
+      left: 0;
+      width: 205px;
+      cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+    }
+
+    /* Control the right side */
+    .right {
+      right: 0;
+      width:100%;
+    }            
+
     </style>
 </head>
 
 <body style="background-color:#FFE5D4;">
-    <h1 style="font-size:95px; color:#4A898C">MELANY DIAZ</h1>
-    <p style="font-size:20px; color:#412F26">Welcome
-        <br style="font-size:20px; color:#412F26">Bienvenu.e
-        <br style="font-size:20px; color:#412F26">Bienvenido(a)</p>
-    <h2 style="font-size:30px; color:#4A898C">This Page is Under construction. Please come back soon</h2>
+
+    <div class="split right">
+        <div style="margin-right:25px; margin-left:215px">
+            <h1 style="font-size:95px; color:#4A898C">MELANY DIAZ</h1>
+            <p style="font-size:20px; color:#412F26">Welcome
+                <br style="font-size:20px; color:#412F26">Bienvenu.e
+                <br style="font-size:20px; color:#412F26">Bienvenido(a)</p>
+            <h2 style="font-size:30px; color:#4A898C">This Page is under construction. Please come back soon</h2>
+        </div>
+    </div>
+
+    <div class="split left">
+            <p><img alt="" src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350" 
+                    style="height: 85px; width: 198px" id="imgClickAndChange"   />
 </body>
+<script src="script.js"></script>
+
 
 </html>
+
