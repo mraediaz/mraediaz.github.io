@@ -27,10 +27,34 @@ Design / Development / Art by Melany Diaz
     <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png"/>
 
     <style>
+    :root {
+      --mainColor: #4A898C;
+    }
+
     body {
         font-family: 'Text Me One';
         text-align: right;
     }
+
+
+    a {
+      background:
+         linear-gradient(
+           to bottom, var(--mainColor) 0%,
+           var(--mainColor) 100%
+         );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+      color: #000;
+      text-decoration: none;
+      transition: background-size .2s;
+    }
+
+    a:hover {
+      background-size: 4px 100%;
+    }
+
 
     .split {
         height: 100%;
@@ -55,7 +79,7 @@ Design / Development / Art by Melany Diaz
       right: 0;
       /*min-width: 350px;*/
       width:100%;
-    }            
+    }       
 
     </style>
 </head>
@@ -65,10 +89,20 @@ Design / Development / Art by Melany Diaz
     <div class="split right">
         <div style="margin-right:25px; margin-left:155px">
             <h1 style="font-size:10vw; color:#4A898C">MELANY DIAZ</h1>
-            <p style="font-size:20px; color:#412F26">Welcome
-                <br style="font-size:20px; color:#412F26">Bienvenu.e
-                <br style="font-size:20px; color:#412F26">Bienvenido(a)</p>
+            
+            <a href="AboutMe_en.html"><span style="font-size:30px; color:#412F26">Welcome!</span></a>
+           <br>
+            <a href="AboutMe_fr.html"><span style="font-size:30px; color:#412F26">Bienvenu.e</span></a>
+           <br>
+            <a href="AboutMe_es.html"><span style="font-size:30px; color:#412F26">Bienvenido(a)</span></a>
+
             <h2 style="font-size:2vw; color:#4A898C">This page is under construction. Please come back soon</h2>
+            
+            <a href="AboutMe_es.html" target="_blank" style="vertical-align: -60px"> <span style="font-size:20px; color:#412F26">E-mail</span></a>
+            <a href="https://www.linkedin.com/in/m-diaz/" target="_blank" style="vertical-align: -60px"> <span style="font-size:20px; color:#412F26">LinkedIn</span></a>
+            <a href="https://github.com/mraediaz" target="_blank" style="vertical-align: -60px"> <span style="font-size:20px; color:#412F26">GitHub</span></a>
+            
+                
         </div>
     </div>
 
