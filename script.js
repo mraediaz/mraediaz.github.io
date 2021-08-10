@@ -1,4 +1,4 @@
-var images = ["images/flower/2.PNG", "images/flower/3.PNG", "images/flower/4.PNG", "images/flower/5.PNG", "images/flower/6.PNG", "images/flower/7.PNG", "images/flower/8.PNG", "images/flower/9.PNG", "images/flower/10.PNG", "images/flower/11.PNG", "images/flower/12.PNG", "images/flower/13.PNG", "images/flower/14.PNG", "images/flower/15.PNG", "images/flower/16.PNG"]
+var images = ["images/flower/2.png", "images/flower/3.png", "images/flower/4.png", "images/flower/5.png", "images/flower/6.png", "images/flower/7.png", "images/flower/8.png", "images/flower/9.png", "images/flower/10.png", "images/flower/11.png", "images/flower/12.png", "images/flower/13.png", "images/flower/14.png", "images/flower/15.png", "images/flower/16.png"]
 
 var imgState = 0;
 
