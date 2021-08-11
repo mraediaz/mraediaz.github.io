@@ -20,7 +20,7 @@ html, body {
 	 transform: translate3d(0, 0, 0);
 }
  nav.top-right {
-	 top: 10px;
+	 top: 7vh;
 	 right: -140px;
 }
  .disc {
@@ -44,7 +44,7 @@ html, body {
 	 pointer-events: auto;
 	 opacity: 1;
 }
- /*.l1 {
+ .l1 {
 	 top: 0px;
 	 left: 0px;
 	 right: 0px;
@@ -68,7 +68,7 @@ html, body {
 }
  .open .l1.toggle {
 	 transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, 10deg);
-}*/
+}
  .l2 {
 	 top: 50px;
 	 left: 50px;
