@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="language" content="en-us">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png"/>
+	<link href='https://fonts.googleapis.com/css?family=Text Me One' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="menu.css"/>  
+
+</head>
+
+<body>
+<h1 style="text-align:left";>
+	An elevator pitch
+</h1>
+
+<div>
+	<nav class="top-right open">
+	    <a class="disc l2">
+	        <div>Languages</div>
+	    </a>
+	    <a class="disc l3">
+	        <div>Skills</div>
+	    </a>
+	    <a class="disc l4">
+	        <div>About Me</div>
+	    </a>
+	    <a class="disc l5 toggle">
+	        Menu
+	    </a>
+	</nav>
+</div>
+
+
+	
+	
+	<script>
+		toggle = document.querySelectorAll(".toggle")[0];
+		nav = document.querySelectorAll("nav")[0];
+		toggle_open_text = 'Menu';
+		toggle_close_text = 'Close';
+
+		toggle.addEventListener('click', function() {
+			nav.classList.toggle('open');
+			
+		  if (nav.classList.contains('open')) {
+		    toggle.innerHTML = toggle_close_text;
+		  } else {
+		    toggle.innerHTML = toggle_open_text;
+		  }
+		}, false);
+
+		setTimeout(function(){
+			nav.classList.toggle('open');	
+		}, 800);
+	</script>
+</body>
+</html>

@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html>
 <!--
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░▄▄░░░░░▄▄░░░░░░░░░░░░░░░░░░░░░
-░░██░░░░░██░░░░░░░░░░░░░░░░░░░░░
-░░██░░░░░██░░░░░░░░░░░░░░░░░░░░░
-░░██▄▄▄▄▄██░░░░░░░░░░░░░░░░░░░░░
-░░██▀▀▀▀▀██░░▄░▄▄▄▄░▄▄▄▄░░░░░░░░
-░░██░░░░░██░░█░█░░░░█▄▄▄▀░░░░░░░
-░░██░░░░░██░░█░█░░░░█░░░░░░░░░░░
-░░▀▀░░░░░▀▀░░▀░▀░░░░▀▀▀▀▀░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░█▀█▄░░░█▀█░░░░░░░░░░░░░░░░
-░░░░░░█░░█▄▄█▀░█░░░░█▀▀▀▄░░░░░░░
-░░░░░░█░░░▀▀░░░█░░░░█▀▀▀░░░░░░░░
-░░░░░░█░░░░░░░░█░░░░█▄▄▄▄░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-Design / Development / Art by Melany Diaz
-
+  _    _ _____ _____  ______     __  __ ______ 
+ | |  | |_   _|  __ \|  ____|   |  \/  |  ____|
+ | |__| | | | | |__) | |__      | \  / | |__   
+ |  __  | | | |  _  /|  __|     | |\/| |  __|  
+ | |  | |_| |_| | \ \| |____    | |  | | |____ 
+ |_|  |_|_____|_|  \_\______|   |_|  |_|______|
+                                               
+Design / Development / Art by Melany Diaz (Who is currently on the job search)
+Created August 2021
 -->
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href='https://fonts.googleapis.com/css?family=Text Me One' rel='stylesheet'>
     <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png"/>
 
     <style>
-    :root {
-      --mainColor: #4A898C;
-    }
 
     body {
         font-family: 'Text Me One';
         text-align: right;
     }
 
+    /*hyperlink animation*/
+    :root {
+      --mainColor: #4A898C;
+    }
 
     a {
       background:
@@ -54,8 +46,9 @@ Design / Development / Art by Melany Diaz
     a:hover {
       background-size: 4px 100%;
     }
+    /*end hyperlink animation*/
 
-
+    /*page division*/
     .split {
         height: 100%;
         position: fixed;
@@ -80,6 +73,7 @@ Design / Development / Art by Melany Diaz
       /*min-width: 350px;*/
       width:100%;
     }       
+    /*end page division*/
 
     </style>
 </head>
@@ -88,19 +82,28 @@ Design / Development / Art by Melany Diaz
 
     <div class="split right">
         <div style="margin-right:25px; margin-left:155px">
-            <h1 style="font-size:10vw; color:#4A898C">MELANY DIAZ</h1>
+            <h1 style="font-size:9vw; color:#4A898C">MELANY DIAZ</h1>
             
-            <a href="AboutMe_en.html"><span style="font-size:30px; color:#412F26">Welcome!</span></a>
+            <a href="en/welcome.html"><span style="font-size:30px; color:#412F26">Welcome!<img src="images/newPage.png" width="16px" height="16px"></span></a>
            <br>
-            <a href="AboutMe_fr.html"><span style="font-size:30px; color:#412F26">Bienvenu.e</span></a>
+            <a href="AboutMe_fr.html"><span style="font-size:30px; color:#412F26">Bienvenue<img src="images/newPage.png" width="16px" height="16px"></span></a>
            <br>
-            <a href="AboutMe_es.html"><span style="font-size:30px; color:#412F26">Bienvenido(a)</span></a>
+            <a href="AboutMe_es.html"><span style="font-size:30px; color:#412F26">Bienvenido(a)<img src="images/newPage.png" width="16px" height="16px"></span></a>
 
             <h2 style="font-size:2vw; color:#4A898C">This page is under construction. Please come back soon</h2>
             
-            <a href="AboutMe_es.html" target="_blank" style="vertical-align: -60px"> <span style="font-size:20px; color:#412F26">E-mail</span></a>
-            <a href="https://www.linkedin.com/in/m-diaz/" target="_blank" style="vertical-align: -60px"> <span style="font-size:20px; color:#412F26">LinkedIn</span></a>
-            <a href="https://github.com/mraediaz" target="_blank" style="vertical-align: -60px"> <span style="font-size:20px; color:#412F26">GitHub</span></a>
+           
+            <footer style="position: absolute; bottom: 50px;">
+                     <a href="https://www.linkedin.com/in/m-diaz/" target="_blank"> <span style="font-size:2vw; color:#412F26">LinkedIn<img src="images/newPage.png" width="16" height="16"></span></a>
+                     
+                     <span style="padding-left:2vw;"> </span>
+
+                     <img src="images/email.png" width="125" height="20">
+
+                     <span style="padding-left:2vw;"> </span>
+                     
+                     <a href="https://github.com/mraediaz" target="_blank"> <span style="font-size:2vw; color:#412F26">GitHub<img src="images/newPage.png" width="16" height="16"></span></a>
+              </footer>
             
                 
         </div>
