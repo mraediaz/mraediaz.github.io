@@ -18,6 +18,8 @@ Created August 2021
 	<link href='https://fonts.googleapis.com/css?family=Text Me One' rel='stylesheet'>
 	<link rel="icon" href="../images/favicon.png" sizes="16x16" type="image/png"/>
 	<!-- <link rel="stylesheet" type="text/css" href="../menu.css"/>   -->
+	<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
+	<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-radar.min.js"></script>
 
 
 	<style>
@@ -64,7 +66,7 @@ Created August 2021
 	/* Control the left side */
 	.left {
 	  left: 0;
-	  width: 140px;
+	  width: 110px;
 /*	  cursor:url('images/mouse_50x50.png'), auto;
 */	  overflow-y: hidden; 
 	  /*background-color:red;*/
@@ -75,22 +77,41 @@ Created August 2021
 	  right: 0;
 	  /*min-width: 350px;*/
 	  width:100%;
+  	  /*background-color:red;*/
 	}       
 	/*end page division*/
 
+	
 	</style>
+	
+	<!-- Language proficiencies spider chart -->
+	<style type="text/css">
+	      html, body, #spoken_languages {
+	        /*width: 350px;*/
+	        width: 70vw;
+	        height: 350px;
+	        margin: 0;
+	        padding: 0;
+	      }
+	    </style>
+	<!-- end spider chart -->
+
 </head>
 
 <body>
-    <div class="split right">
-        <div style="margin-right:25px; margin-left:155px">
+    <div class="split right" >
+        <div style="margin-right:25px; margin-left:120px">
            
 
             <h1 style="font-size:9vw; color:#4A898C">MELANY DIAZ</h1>
 
-            <h2 style="font-size:4vw; color:#4A898C; padding-top: 50px" >Hi! I'm Melany, and I'm a programmer.</h2>
+            <p style="font-size:4vw; color:#4A898C" >My language proficiencies</p>
 
-			<footer style="position: absolute; bottom: 50px;">
+            <div id="spoken_languages">
+            	<p> I speak English and Spanish natively, and studied French in a formal setting for over 10 years. In 2019, I moved from the U.S. to France (where I now work and live).
+            </div>
+
+			<footer style="position: absolute; padding-bottom: 50px; padding-top: 50px;">
 	            <a href="https://www.linkedin.com/in/m-diaz/" target="_blank"> <span style="font-size:2vw; color:#412F26">LinkedIn<img src="../images/newPage.png" width="16" height="16"></span></a>
 	            
 	            <span style="padding-left:2vw;"> </span>
@@ -114,4 +135,142 @@ Created August 2021
             </div>
 </body>
 <!-- <script src="script.js"></script> -->
+
+<!-- language proficiencies spider chart -->
+<script> 
+	anychart.onDocumentReady(function () {
+
+	  var English = [
+	    {x: "Reading", value: 100},
+	    {x: "Listening", value: 95},
+	    {x: "Speaking", value: 100},
+	    {x: "Writing", value: 90},
+	    {x: "Comfort", value: 100}
+	  ];
+
+	  var French = [
+	    {x: "Reading", value: 72},
+	    {x: "Listening", value: 80},
+	    {x: "Speaking", value: 85},
+	    {x: "Writing", value: 50},
+	    {x: "Comfort", value: 85}
+	  ];  
+
+	  var Spanish = [
+	    {x: "Reading", value: 60},
+	    {x: "Listening", value: 77},
+	    {x: "Speaking", value: 70},
+	    {x: "Writing", value: 48},
+	    {x: "Comfort", value: 79}
+	  ]; 
+
+	  var pgSQL = [
+	    {x: "Reading", value: 100},
+	    {x: "Listening", value: 95},
+	    {x: "Speaking", value: 100},
+	    {x: "Writing", value: 90},
+	    {x: "Comfort", value: 100}
+	  ];
+
+	  var Perl = [
+	    {x: "Reading", value: 72},
+	    {x: "Listening", value: 80},
+	    {x: "Speaking", value: 85},
+	    {x: "Writing", value: 50},
+	    {x: "Comfort", value: 85}
+	  ];  
+
+	  var Python = [
+	    {x: "Reading", value: 60},
+	    {x: "Listening", value: 77},
+	    {x: "Speaking", value: 70},
+	    {x: "Writing", value: 48},
+	    {x: "Comfort", value: 79}
+	  ]; 
+
+	  var HTML = [
+	    {x: "Reading", value: 100},
+	    {x: "Listening", value: 95},
+	    {x: "Speaking", value: 100},
+	    {x: "Writing", value: 90},
+	    {x: "Comfort", value: 100}
+	  ];
+
+	  var C = [
+	    {x: "Reading", value: 72},
+	    {x: "Listening", value: 80},
+	    {x: "Speaking", value: 85},
+	    {x: "Writing", value: 50},
+	    {x: "Comfort", value: 85}
+	  ];  
+
+	  var LaTex = [
+	    {x: "Reading", value: 60},
+	    {x: "Listening", value: 77},
+	    {x: "Speaking", value: 70},
+	    {x: "Writing", value: 48},
+	    {x: "Comfort", value: 79}
+	  ]; 
+
+	  var Java = [
+	    {x: "Reading", value: 100},
+	    {x: "Listening", value: 95},
+	    {x: "Speaking", value: 100},
+	    {x: "Writing", value: 90},
+	    {x: "Comfort", value: 100}
+	  ];
+
+	  var JSON = [
+	    {x: "Reading", value: 72},
+	    {x: "Listening", value: 80},
+	    {x: "Speaking", value: 85},
+	    {x: "Writing", value: 50},
+	    {x: "Comfort", value: 85}
+	  ];  
+
+	  var Regex = [
+	    {x: "Reading", value: 60},
+	    {x: "Listening", value: 77},
+	    {x: "Speaking", value: 70},
+	    {x: "Writing", value: 48},
+	    {x: "Comfort", value: 79}
+	  ]; 
+
+	  var VBA = [
+	    {x: "Reading", value: 60},
+	    {x: "Listening", value: 77},
+	    {x: "Speaking", value: 70},
+	    {x: "Writing", value: 48},
+	    {x: "Comfort", value: 79}
+	  ]; 
+
+
+	  // ------------Spoken Languages
+	  var chart = anychart.radar();
+
+	  // set chart yScale settings
+	  chart.yScale()
+	    .minimum(0)
+	    .maximum(100);
+	  //   .ticks({'enabled:false'});
+	  var labels = chart.yAxis().labels();
+	  labels.enabled(false);
+	  var tooltip = chart.tooltip();
+	  tooltip.enabled(false);
+	  // tooltip.positionMode("point");
+	  // tooltip.titleFormat("{%seriesName}");
+	  // tooltip.format("{%comment}");
+
+	  chart.area(English).name('English').markers(true).fill("#E55934", 0.3).stroke("#E55934")
+	  chart.area(French).name('French').markers(true).fill("#9BC53D", 0.3).stroke("#9BC53D")
+	  chart.area(Spanish).name('Spanish').markers(true).fill("#5BC0EB", 0.3).stroke("#5BC0EB")
+	    
+	  chart.title("Spoken Language proficiencies")
+	  .legend(true);
+
+	  chart.container('spoken_languages');
+	  chart.draw();
+	  // ------------END Spoken Languages
+	});
+</script>
 </html>
