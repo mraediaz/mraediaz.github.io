@@ -1,120 +1,140 @@
 <!DOCTYPE html>
 <html>
-<!--
-  _    _ _____ _____  ______     __  __ ______ 
- | |  | |_   _|  __ \|  ____|   |  \/  |  ____|
- | |__| | | | | |__) | |__      | \  / | |__   
- |  __  | | | |  _  /|  __|     | |\/| |  __|  
- | |  | |_| |_| | \ \| |____    | |  | | |____ 
- |_|  |_|_____|_|  \_\______|   |_|  |_|______|
-                                               
-Design / Development / Art by Melany Diaz (Who is currently on the job search)
-Created August 2021
--->
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href='https://fonts.googleapis.com/css?family=Text Me One' rel='stylesheet'>
-    <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png"/>
-
-    <style>
-
-    body {
+    <!--
+    _    _ _____ _____  ______     __  __ ______
+    | |  | |_   _|  __ \|  ____|   |  \/  |  ____|
+    | |__| | | | | |__) | |__      | \  / | |__
+    |  __  | | | |  _  /|  __|     | |\/| |  __|
+    | |  | |_| |_| | \ \| |____    | |  | | |____
+    |_|  |_|_____|_|  \_\______|   |_|  |_|______|
+    
+    Design / Development / Art by Melany Diaz (Who is currently on the job search)
+    Created August 2021
+    -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Text Me One' rel='stylesheet'>
+        <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png"/>
+        <style>
+        body {
         font-family: 'Text Me One';
         /*text-align: right;*/
-    }
-
-    /*hyperlink animation*/
-    :root {
-      --mainColor: #4A898C;
-    }
-
-    a {
-      background:
-         linear-gradient(
-           to bottom, var(--mainColor) 0%,
-           var(--mainColor) 100%
-         );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
-      color: #000;
-      text-decoration: none;
-      transition: background-size .2s;
-    }
-
-    a:hover {
-      background-size: 4px 100%;
-    }
-    /*end hyperlink animation*/
-
-    /*page division*/
-    .split {
+        }
+        /*hyperlink animation*/
+        :root {
+        --mainColor: #4A898C;
+        }
+        a {
+        background:
+        linear-gradient(
+        to bottom, var(--mainColor) 0%,
+        var(--mainColor) 100%
+        );
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 2px 2px;
+        color: #000;
+        text-decoration: none;
+        transition: background-size .2s;
+        }
+        a:hover {
+        background-size: 4px 100%;
+        }
+        /*end hyperlink animation*/
+        /*page division*/
+        .split {
         height: 100%;
         position: fixed;
         z-index: 1;
         top: 0;
         overflow-x: hidden;
         padding-top: 2px;
-    }
-
-    /* Control the left side */
-    .left {
-      left: 0;
-      width: 140px;
-      cursor:url('images/mouse_50x50.png'), auto;
-      overflow-y: hidden; 
-      /*background-color:red;*/
-    }
-
-    /* Control the right side */
-    .right {
-      right: 0;
-      /*min-width: 350px;*/
-      width:100%;
-    }       
-    /*end page division*/
-
-    </style>
-</head>
-<body>
-    <div class="split right">
-        <div style="margin-right:25px; margin-left:155px;">
-            <h1 style="font-size:9vw; color:#4A898C">MELANY DIAZ</h1>
-            
-            <a href="en/welcome.html"><span style="font-size:30px; color:#412F26">Welcome<!-- <img src="images/newPage.png" width="16px" height="16px"> --></span></a>
-           <br>
-            <a href="fr/welcome.html"><span style="font-size:30px; color:#412F26">Bienvenue<!-- <img src="images/newPage.png" width="16px" height="16px"> --></span></a>
-           <br>
-            <a href="es/welcome.html"><span style="font-size:30px; color:#412F26">Bienvenido(a)<!-- <img src="images/newPage.png" width="16px" height="16px"> --></span></a>
-            <br><br><br>
-<!-- 
-            <h2 style="font-size:2vw; color:#4A898C">This page is under construction. Please come back soon</h2>
-             -->
-           
-            <footer style="position: absolute; padding-bottom: 50px; padding-top: 50px;">
-                     <a href="https://www.linkedin.com/in/m-diaz/" target="_blank"> <span style="font-size:20px; color:#412F26">LinkedIn<img src="images/newPage.png" width="16" height="16"></span></a><br>
-                     
-                     <span style="padding-left:1px;"> </span>
-
-                     <img src="images/email.PNG" width="125" height="20"><br>
-
-                     <span style="padding-left:1px;"> </span>
-                     
-                     <a href="https://github.com/mraediaz" target="_blank"> <span style="font-size:20px; color:#412F26">GitHub<img src="images/newPage.png" width="16" height="16"></span></a>
-              </footer>
-            
+        }
+        /* Control the left side */
+        .left {
+        left: 0;
+        width: 140px;
+        cursor:url('images/mouse_50x50.png'), auto;
+        overflow-y: hidden;
+        /*background-color:red;*/
+        }
+        /* Control the right side */
+        .right {
+        right: 0;
+        /*min-width: 350px;*/
+        width:100%;
+        }
+        /*end page division*/
+        </style>
+    </head>
+    <body>
+        <div class="split right">
+            <div style="margin-right:25px; margin-left:155px;">
+                <h1 style="font-size:9vw; color:#4A898C">MELANY DIAZ</h1>
                 
-        </div>
-    </div>
+                <div class="wrap_about_me">
+                    <h1 style="color:#4A898C;">About Me</h1>
+                    <a href="en/welcome.html">
+                        <span style="font-size:30px; color:#412F26">
+                            <svg viewBox="0 0 82 66" style="height: 28.9756px; width: 36px;" class="_1v6Jc">
+                                <image height="3102" href="https://d35aaqx5ub95lt.cloudfront.net/vendor/886136e840d16adc3a4ec52245fccdf2.svg" width="82" xlink:href="https://d35aaqx5ub95lt.cloudfront.net/vendor/886136e840d16adc3a4ec52245fccdf2.svg">
+                                </image>
+                                </svg> Welcome<!-- <img src="images/newPage.png" width="16px" height="16px"> -->
+                            </span>
+                        </a>
+                        <br>
+                        <a href="fr/welcome.html">
+                            <span style="font-size:30px; color:#412F26">
+                                <svg viewBox="0 132 82 66" style="height: 28.9756px; width: 36px;" class="_1v6Jc">
+                                    <image height="3102" href="https://d35aaqx5ub95lt.cloudfront.net/vendor/886136e840d16adc3a4ec52245fccdf2.svg" width="82" xlink:href="https://d35aaqx5ub95lt.cloudfront.net/vendor/886136e840d16adc3a4ec52245fccdf2.svg">
+                                    </image>
+                                    </svg> Bienvenue<!-- <img src="images/newPage.png" width="16px" height="16px"> -->
+                                </span>
+                            </a>
+                            <br>
+                            <a href="es/welcome.html">
+                                <span style="font-size:30px; color:#412F26">
+                                    <svg viewBox="0 66 82 66" style="height: 28.9756px; width: 36px;" class="_1v6Jc">
+                                        <image height="3102" href="https://d35aaqx5ub95lt.cloudfront.net/vendor/886136e840d16adc3a4ec52245fccdf2.svg" width="82" xlink:href="https://d35aaqx5ub95lt.cloudfront.net/vendor/886136e840d16adc3a4ec52245fccdf2.svg">
+                                        </image>
+                                    </svg> Bienvenido(a)<!-- <img src="images/newPage.png" width="16px" height="16px">
+                                --></span></a>
+                            </div>
 
-    <div class="split left">
-            <p><img alt="" src="images/plants/1.png"
-                    style="height: 600px; width: 110px" id="imgClickAndChange"   >
-                
-            </div>
-</body>
-<script src="script.js"></script>
+                            <br><br><br><br>
+                            <div class="wrap_projects">
+                                <h1 style="color:#4A898C;">Personal Projects</h1>
 
-</html>
-
+                                <a href="https://www.split-expense.com">
+                                    <span style="font-size:30px; color:#412F26">
+                                    Split Expense Calculator
+                                    </span>
+                                    </a>
+                                
+                            </div>
+                            <!--
+                            <h2 style="font-size:2vw; color:#4A898C">This page is under construction. Please come back soon</h2>
+                            -->
+                            
+                            <footer style="position: absolute; padding-bottom: 50px; padding-top: 50px;">
+                                <a href="https://www.linkedin.com/in/m-diaz/" target="_blank"> <span style="font-size:20px; color:#412F26">LinkedIn<img src="images/newPage.png" width="16" height="16"></span></a><br>
+                                
+                                <span style="padding-left:1px;"> </span>
+                                <img src="images/email.PNG" width="125" height="20"><br>
+                                <span style="padding-left:1px;"> </span>
+                                
+                                <a href="https://github.com/mraediaz" target="_blank"> <span style="font-size:20px; color:#412F26">GitHub<img src="images/newPage.png" width="16" height="16"></span></a>
+                            </footer>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="split left">
+                        <p><img alt="" src="images/plants/1.png"
+                            style="height: 600px; width: 110px" id="imgClickAndChange"   >
+                            
+                        </div>
+                    </body>
+                    <script src="script.js"></script>
+                </html>
